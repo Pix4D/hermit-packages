@@ -20,7 +20,9 @@ on "unpack" {
 }
 
 version "3.156.0" "3.157.0" "3.157.1" "3.157.2" "3.158.0" "3.159.0" "3.159.1"
-        "3.161.0" "3.162.0" "3.163.0" "3.164.0" "3.165.0" {
+        "3.161.0" "3.162.0" "3.163.0" "3.164.0" "3.165.0" "3.166.0" "3.167.0" "3.168.0"
+        "3.168.1" "3.169.0" "3.170.0" "3.171.0" "3.172.0" "3.173.1" "3.173.2" "3.174.0"
+        "3.175.0" "3.176.0" {
   auto-version {
     github-release = "metalbear-co/mirrord"
   }
@@ -63,4 +65,43 @@ sha256sums = {
   "https://github.com/metalbear-co/mirrord/releases/download/3.165.0/mirrord_mac_universal.zip": "a25735d1dd7802bb1369b6a509da3cbc3272cdfaa1812bfed3f2d6b8231dfc16",
   "https://github.com/metalbear-co/mirrord/releases/download/3.165.0/mirrord_linux_aarch64": "8e0796b2010b5711a43d9c27380288aea4c1031696d91d34d90d493adb8c9975",
   "https://github.com/metalbear-co/mirrord/releases/download/3.165.0/mirrord_linux_x86_64": "7b92985da67f8f47ef95bc9411bd5794bbbc5953b611b110b17557b95589ac49",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.166.0/mirrord_linux_x86_64": "db7f6fada8666efc00e1fa542a8000aefa51b8f56480119413bea95c31d0343a",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.166.0/mirrord_linux_aarch64": "52c87a81d77b2c9683675676a07491bd904de18f3a2f43cc2918a87bd655806b",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.166.0/mirrord_mac_universal.zip": "fb987260924886a4ab13ddd590d376dadb529e2c02fc9cfbaac0b3c57062b724",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.167.0/mirrord_linux_x86_64": "eafefdded5183f5b07aff9152571a16931d400b4de03b3c4d1db4a2191737847",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.167.0/mirrord_mac_universal.zip": "4719d2c30c4571d785f20908ce410c7fab365eec9439fd10c007035deaffa98c",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.167.0/mirrord_linux_aarch64": "b19d891b719ff689060033e127a3cf787858dfd36e5b721c03405730bdcd98cd",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.168.0/mirrord_mac_universal.zip": "0fb35514b93fc6bf7e63a73774a3af3a58cceb1a27a5fc91ebdc9eb8843d7fc9",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.168.0/mirrord_linux_aarch64": "20857ff6d9333d19143f12b104edd32758dad3844c435fb93cb5f10c5445603e",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.168.0/mirrord_linux_x86_64": "cf0afed5c633760309c3aff5677cf8450af0cd8e717afab65ed3ae8b908a7258",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.168.1/mirrord_linux_aarch64": "254f35d3ebcf18b1ce243e410a0c03cf368efb7911d942d1e2a248f199da8e31",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.168.1/mirrord_mac_universal.zip": "8cfe01cdc33dd2227775f1e14ebfae06046e5b1e7cd668078a18d3eeb6477dca",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.168.1/mirrord_linux_x86_64": "ccd1ff24d6ebf004ddc1514f2fc3f8a62da8d2edb6bd2c9d589c0704a3d46dd0",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.169.0/mirrord_linux_aarch64": "546ce8e4afacfbe09ce4ce1d927d30440147cde44807f2d97ff42606b3cd9b33",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.169.0/mirrord_linux_x86_64": "34f305e5ff68c4c05239f2fc40530a94fd5439275faa8e0b717a91589eb1a2e7",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.169.0/mirrord_mac_universal.zip": "3e3b6ccbb2739c7ca6a46ad64c0b3a72426b1a30ed254a691f09880d661cd3dc",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.170.0/mirrord_linux_x86_64": "690bb3bb4a2befa17cdbdfb2cada06d81b83e9ad01fb004531f1f945175d16d3",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.170.0/mirrord_mac_universal.zip": "127403daef76dca9a2e65b40a099078b8add7d37398271d4996bd3fd8b51e2d6",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.170.0/mirrord_linux_aarch64": "fbb9ae600be819e930b156d40135afe58cdaee30a08e59e3654a9f839bc6ae46",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.171.0/mirrord_mac_universal.zip": "daa48978ee80c0e7da36745f2738ad37e6a4683d47125d222bdf32b6793142cd",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.171.0/mirrord_linux_x86_64": "71579e0caec8cbc3ecf7c57d0f2f070f67547d392d128fda99b100db0a90240d",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.171.0/mirrord_linux_aarch64": "a8379ccc7611a685deec646936387c9988e2f8902584d83a9da324886063f849",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.172.0/mirrord_linux_x86_64": "a1b54a3fbb535341f9859180efd23a5dc4817e6c2e323666ba3ce2575a84ac59",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.172.0/mirrord_linux_aarch64": "437c3643ee490070d23aec9d4e7c4f14e9705ff2e7299a16f8adbe3a566d616e",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.172.0/mirrord_mac_universal.zip": "020abdbe826177866f6690bb2eb44e0ec49066d601fdbe2698563d327e3fc318",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.173.1/mirrord_mac_universal.zip": "e82c8373c50a218f3014b972c81bde389f4fb5e4128c33605efec6327715bed7",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.173.1/mirrord_linux_aarch64": "79264b1a97f11b6f0c0753776aef70a0ba7085833ff2a1bbf9ed2b0e52013a27",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.173.1/mirrord_linux_x86_64": "607e38a7bc78b70a4293991654d03e11efabdf9d681f9642352640d4b869e1dc",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.173.2/mirrord_mac_universal.zip": "e6d632c96574420de8480b5084ff7725faf5c6335dd54a6e3ff1ffedfb1c7b5f",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.173.2/mirrord_linux_aarch64": "19eb80ba7ccf26f118188b4c94bdcd98b351ad6607de9d76a556885630cbd1eb",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.173.2/mirrord_linux_x86_64": "2faebdbf3d664c51a545f4e4529b207e0c49ee7571ddc0307874249528b1c968",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.174.0/mirrord_linux_aarch64": "346259513fa0ae76f4847220253345a2ba77b463179fea3f657d3808dc95db51",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.174.0/mirrord_linux_x86_64": "53573bc73c7a31b30bebc10ba3b5a560ee07ee5f321397b52a5e5f537dca4d74",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.174.0/mirrord_mac_universal.zip": "7b605dce9711f51d239abdd91f4245fe3f30e5c98fea43ec2b3c54d497bc1300",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.175.0/mirrord_mac_universal.zip": "4bb6a6faf4c5d1625ba3e0145b80560ff56464391c88d91e95b16bbcfc13aa1b",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.175.0/mirrord_linux_x86_64": "b9db1e638c3fcac0fe3940d5d03aa1536ce73c5784d79060755b562703119814",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.175.0/mirrord_linux_aarch64": "6dcc1d5ba690ed2d05296ad74e21e50bd1bdb91fbdbf9f1a8a9709a73b7b5b77",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.176.0/mirrord_linux_x86_64": "ebd5b9c5c16fd0e4d853842d05f29dbaf613bf9987f1508557b142b8aeabae36",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.176.0/mirrord_mac_universal.zip": "f43ffd9853648c27f558d5066253be80dc5493b15bae5afa044f0063ba4f4457",
+  "https://github.com/metalbear-co/mirrord/releases/download/3.176.0/mirrord_linux_aarch64": "d2f72ef08745037ed1be762798914feb72d923c705c5c738954294cc5db69d8f",
 }
