@@ -24,7 +24,7 @@ platform "linux" {
 
 description = "Semantic versioning tool for git based on conventional commits"
 
-version "2.0.0" "2.0.1" "2.0.2" "2.0.3" "2.0.4" "2.0.5" {
+version "2.0.0" "2.0.1" "2.0.2" "2.0.3" "2.0.4" "2.0.5" "2.0.6" "2.0.7" "2.0.8" "2.0.9" {
   auto-version {
     github-release = "thegeeklab/git-sv"
   }
@@ -55,4 +55,20 @@ sha256sums = {
   "https://github.com/thegeeklab/git-sv/releases/download/v2.0.5/git-sv-darwin-10.12-arm64": "a0a795bd3daae26aecc8e3656087c3823981c5ec4c9c46fcd984243b503d185b",
   "https://github.com/thegeeklab/git-sv/releases/download/v2.0.5/git-sv-linux-amd64": "c2756bdad436f4694300c1f693a93ed53c0826bdb5fb39856ca1ba08da2564e9",
   "https://github.com/thegeeklab/git-sv/releases/download/v2.0.5/git-sv-linux-arm64": "7a79698c3381b9c5e3d603ccf2e41fe3e9e0e313bc9482984583a6628dd0b104",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.6/git-sv-linux-amd64": "9bb4378dc0552e534ac0c321967fa48c756e8b02dbc048479edd5cdd57757fdd",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.6/git-sv-darwin-10.12-amd64": "32756d650720bf52b827c85feda6c7711be7aa1907dd03e9d31700b8f16de81a",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.6/git-sv-darwin-10.12-arm64": "65fa0926ccc5f63f2e574b7f1dd9f5036acc04a764d121afb14afa544bacfc7d",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.6/git-sv-linux-arm64": "e2b02b7daa15718d954e1873367313231facf3186076a698586d481ced6491f3",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.7/git-sv-darwin-10.12-amd64": "f8223579e9d44243fc978550561a9a0e2c2f74c8544885b5d1ee7107be3d8c92",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.7/git-sv-darwin-10.12-arm64": "b4164984f28276b5825dbc9205bd0730eb23da502c960410d9e82adc9c915233",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.7/git-sv-linux-amd64": "d4725b79b38a5bc802686dd7cf4c4a3229277514a906f334873027f32032753e",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.7/git-sv-linux-arm64": "725feb847eebc9312ae4f0e102b029bf5f8d725701ae155ab4ad1c4c20278a7d",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.8/git-sv-linux-amd64": "dcdc415b185fbb09c06d80cff16a646cdcca34135ff7cb244558f3fbf8972b7c",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.8/git-sv-darwin-10.12-arm64": "ae79ca3360466c38dfa5973999f95f00e0e9f75d1dbe6a2499c3d795b1a93aa5",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.8/git-sv-linux-arm64": "18106965deb658e4e1bfed1d20ceafe13cba9ab1383e5fcfd490fa9592f99604",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.8/git-sv-darwin-10.12-amd64": "327b14a30f2492d29176f40c42d8a31ccb1aefe58bb1f0a1dca43732d5f517a3",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.9/git-sv-linux-amd64": "3653a99fc0768d29b356f9437a84db088d49df59e3161d1289fd8ef99257e229",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.9/git-sv-darwin-10.12-amd64": "a486dba13db3679b76842d06232b6786ceed6ab16e11c53e27c98a171afa041f",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.9/git-sv-darwin-10.12-arm64": "1e3560be20c67c3749d5aa2d3840f7ae4f713a475761e943fd2b572745a9953f",
+  "https://github.com/thegeeklab/git-sv/releases/download/v2.0.9/git-sv-linux-arm64": "bd44c09f5b4c002169d1da8cdce8804e24b9eaedcbedd645ad4e2a46e0555e98",
 }

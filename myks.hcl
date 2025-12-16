@@ -5,7 +5,7 @@ test = "myks --version"
 
 version "4.2.6" "4.3.0" "4.3.1" "4.3.2" "4.4.0" "4.4.1" "4.4.2" "4.5.0" "4.5.1" "4.6.0"
         "4.6.1" "4.7.0" "4.8.0" "4.8.1" "4.8.2" "4.8.3" "4.8.4" "4.9.0" "4.10.0" "4.11.0"
-        "4.11.1" "4.11.2" "4.11.3" "4.11.4" {
+        "4.11.1" "4.11.2" "4.11.3" "4.11.4" "5.0.0" "5.1.0" "5.2.0" "5.3.0" "5.4.0" {
   auto-version {
     github-release = "mykso/myks"
   }
@@ -108,4 +108,24 @@ sha256sums = {
   "https://github.com/mykso/myks/releases/download/v4.11.4/myks_4.11.4_linux_arm64.tar.gz": "559208db5229e001b3092483cf54f4cc1145ef67f6129564f69f141cac7cbb8d",
   "https://github.com/mykso/myks/releases/download/v4.11.4/myks_4.11.4_linux_amd64.tar.gz": "4aa5a5d109293d97c0989628c5fce2f08e78b7841d7885cfe94369d17453546e",
   "https://github.com/mykso/myks/releases/download/v4.11.4/myks_4.11.4_darwin_amd64.tar.gz": "e3d0ec4ad9fb16e080beae140da69c2c9f5248ff37ca6016696d52710d420478",
+  "https://github.com/mykso/myks/releases/download/v5.0.0/myks_5.0.0_darwin_arm64.tar.gz": "e98cb04581705420496ab4a4f2e0df366133a1b18f98f6a53e12f74d304d9058",
+  "https://github.com/mykso/myks/releases/download/v5.0.0/myks_5.0.0_linux_amd64.tar.gz": "39a3342b13f993576d979d609991addf7e622627b6a146e1cddf29fb602ee10e",
+  "https://github.com/mykso/myks/releases/download/v5.0.0/myks_5.0.0_darwin_amd64.tar.gz": "7b0f09373ef8f36942cd5fbf391891c0fc1b0bdb0b09053cc0a2db0443cf86fb",
+  "https://github.com/mykso/myks/releases/download/v5.0.0/myks_5.0.0_linux_arm64.tar.gz": "6030cc11696c54e52aff118843a85978c81db4fe4dce2784a09240c62e1c7288",
+  "https://github.com/mykso/myks/releases/download/v5.1.0/myks_5.1.0_linux_arm64.tar.gz": "1c6200324fda447719bddb960fc2bd3eb543eaa79e4bac7b5dae3fe2b47174e6",
+  "https://github.com/mykso/myks/releases/download/v5.1.0/myks_5.1.0_linux_amd64.tar.gz": "0fdcc43bf99298fd1f9550e3becec3aba57d1b3e499bf5662b12cd0443a88def",
+  "https://github.com/mykso/myks/releases/download/v5.1.0/myks_5.1.0_darwin_arm64.tar.gz": "0ca914dd3cfd8a4c33427618fd2f408dd88ac417fdbc6df54091008d389ea42d",
+  "https://github.com/mykso/myks/releases/download/v5.1.0/myks_5.1.0_darwin_amd64.tar.gz": "15352c282e9dfc6be4f10f9325f400f7d70a25f177b83ede2ad1afbacc37d72c",
+  "https://github.com/mykso/myks/releases/download/v5.2.0/myks_5.2.0_darwin_amd64.tar.gz": "8531783c300a76b647b7cdab1ac115f177c8ff694b35beba68fbded18e32416a",
+  "https://github.com/mykso/myks/releases/download/v5.2.0/myks_5.2.0_linux_arm64.tar.gz": "ff7bb6fa203ac0f5e1c25762d2ed903594321b6cc5a3d7d0df4da5fc554fdc89",
+  "https://github.com/mykso/myks/releases/download/v5.2.0/myks_5.2.0_linux_amd64.tar.gz": "7a793a90eb090df39a92fa8fd5631e7721af607d5e9149d86ed91c1402d615c7",
+  "https://github.com/mykso/myks/releases/download/v5.2.0/myks_5.2.0_darwin_arm64.tar.gz": "301cd1a0e93a7aaa451c16b014f8d29e0d8785bf538437ff20066e11731273c0",
+  "https://github.com/mykso/myks/releases/download/v5.3.0/myks_5.3.0_darwin_arm64.tar.gz": "e6346f717645ca56f897a8c4406936b6ca51af47f590436c48e60850813f742c",
+  "https://github.com/mykso/myks/releases/download/v5.3.0/myks_5.3.0_darwin_amd64.tar.gz": "4ebc7912a128249bb3c5f09c7edccfff1822c7a8e7ed2e24cc2868e39a5e951d",
+  "https://github.com/mykso/myks/releases/download/v5.3.0/myks_5.3.0_linux_amd64.tar.gz": "468cd0c52f381090a5b7f88ff06af4d391edd10dfee3ce8880ed5f576606dd8f",
+  "https://github.com/mykso/myks/releases/download/v5.3.0/myks_5.3.0_linux_arm64.tar.gz": "f757cdab5d5306063cd2a7577aaf5d270ea0b2bd7c9921843286312f92e46f5d",
+  "https://github.com/mykso/myks/releases/download/v5.4.0/myks_5.4.0_linux_arm64.tar.gz": "cfbbceee9fed7c4835fdf4e449769c2ba59047e36f33236c02bde72bde481b7f",
+  "https://github.com/mykso/myks/releases/download/v5.4.0/myks_5.4.0_darwin_arm64.tar.gz": "ae3548ae84df2c2c84d183028b5139e4450611aa05a60839bef3090cace95a78",
+  "https://github.com/mykso/myks/releases/download/v5.4.0/myks_5.4.0_linux_amd64.tar.gz": "e2b164931d5e97840c4885c7f444e0bdff3624433c8652f944307891abe2fc15",
+  "https://github.com/mykso/myks/releases/download/v5.4.0/myks_5.4.0_darwin_amd64.tar.gz": "7cff1f6a491ebf4e5cd7b1e4098b35f725736ee1262d8ddea24c0e9b4c8ee2ac",
 }

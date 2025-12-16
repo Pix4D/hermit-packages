@@ -5,7 +5,8 @@ sha256-source = "https://github.com/ollama/ollama/releases/download/v${version}/
 version "0.6.0" "0.6.1" "0.6.2" "0.6.3" "0.6.4" "0.6.5" "0.6.6" "0.6.7" "0.6.8" "0.7.0"
         "0.7.1" "0.8.0" "0.9.0" "0.9.1" "0.9.2" "0.9.3" "0.9.4" "0.9.5" "0.9.6" "0.10.0"
         "0.10.1" "0.11.2" "0.11.3" "0.11.4" "0.11.5" "0.11.6" "0.11.7" "0.11.10" "0.11.11"
-        "0.12.0" "0.12.1" "0.12.2" "0.12.3" {
+        "0.12.0" "0.12.1" "0.12.2" "0.12.3" "0.12.5" "0.12.6" "0.12.7" "0.12.8" "0.12.9"
+        "0.12.10" "0.12.11" "0.13.0" "0.13.1" "0.13.2" "0.13.3" {
   auto-version {
     github-release = "ollama/ollama"
   }
@@ -231,4 +232,37 @@ sha256sums = {
   "https://github.com/ollama/ollama/releases/download/v0.12.3/ollama-linux-arm64.tgz": "d0cc8332edd26778b4c05e1b1d1b5d09f5f5611ad6a939fac4a9da6b5cb81d90",
   "https://github.com/ollama/ollama/releases/download/v0.12.3/ollama-linux-amd64.tgz": "649ac33e3e22304f650207e4f6379dbc2c2397d840593caf5bba6605c2886229",
   "https://github.com/ollama/ollama/releases/download/v0.12.3/ollama-darwin.tgz": "4831b6b3b0b736b9abf06adbaeaffc44c7e363fcfdd120f9573be00b5691f0e9",
+  "https://github.com/ollama/ollama/releases/download/v0.12.5/ollama-linux-arm64.tgz": "725fde4651a4281e8cfb0384c6a2976551eb56b8720112534aa463880b1a4e70",
+  "https://github.com/ollama/ollama/releases/download/v0.12.5/ollama-darwin.tgz": "089a34acf5a884c3a30540b5cf0380738dd0347c5811d468699bd3a6fe8741cc",
+  "https://github.com/ollama/ollama/releases/download/v0.12.5/ollama-linux-amd64.tgz": "e0d20dac3358403ef17f880168f32a59b911f3875c509d2d256bd70acce9360e",
+  "https://github.com/ollama/ollama/releases/download/v0.12.6/ollama-darwin.tgz": "60e652314f08cd88c85e45f6b48211fb189664c0386d4ebf14bc7223bb5504c6",
+  "https://github.com/ollama/ollama/releases/download/v0.12.6/ollama-linux-arm64.tgz": "7694f214feb9fdcf95e9ae794bf59f29143a8b98ae89040ce228723df2e633eb",
+  "https://github.com/ollama/ollama/releases/download/v0.12.6/ollama-linux-amd64.tgz": "de82adce2ab79235115d511ff22fcb099ac53b67127870f12b80198c033ec0a1",
+  "https://github.com/ollama/ollama/releases/download/v0.12.7/ollama-linux-arm64.tgz": "b3659bded1d29a0d0e344b6b578d60215e06f4d524cdd1d2c6ba3d595c9987f4",
+  "https://github.com/ollama/ollama/releases/download/v0.12.7/ollama-darwin.tgz": "249474287f88a16f612db1cb7df6476146276f906e4591e1b08e8b7487506202",
+  "https://github.com/ollama/ollama/releases/download/v0.12.7/ollama-linux-amd64.tgz": "b59bd263c8888c1e09e5054b16030ad052f8edd3dbf6be4b4c9ab5ee422ea04f",
+  "https://github.com/ollama/ollama/releases/download/v0.12.8/ollama-linux-arm64.tgz": "f00672dccee9554dfb8b43a8924e185b6c9622d8ce309d5ef2f561ddab8817e3",
+  "https://github.com/ollama/ollama/releases/download/v0.12.8/ollama-darwin.tgz": "e91c75bcbf66392dd680da9afe7773dfdde2e5ac8f6d8959afe5c1c3db90f6c0",
+  "https://github.com/ollama/ollama/releases/download/v0.12.8/ollama-linux-amd64.tgz": "1834dd42f1a92a7ed4a76fb62efdcecd8ec3cf6037ce3710323b68bc481102c7",
+  "https://github.com/ollama/ollama/releases/download/v0.12.9/ollama-linux-arm64.tgz": "4c383c35d7443e27171ecda461f21cf4dd46b752b427ebebd5f2402e80d39eaa",
+  "https://github.com/ollama/ollama/releases/download/v0.12.9/ollama-darwin.tgz": "a3bd64569cb945133dd714f3568989f6bcd4d988a3ba47d2c0dc644770547f17",
+  "https://github.com/ollama/ollama/releases/download/v0.12.9/ollama-linux-amd64.tgz": "f9784545497bc7475087b2c7b1430299173564cbd7a99d2b1f23ef4a40b4453b",
+  "https://github.com/ollama/ollama/releases/download/v0.12.10/ollama-darwin.tgz": "5e1a6875430a43f5cdc5457c1962e0660161aa118c1f3196fdd2b992a68a6363",
+  "https://github.com/ollama/ollama/releases/download/v0.12.10/ollama-linux-amd64.tgz": "8f4bf70a9856a34ba71355745c2189a472e2691a020ebd2e242a58e4d2094722",
+  "https://github.com/ollama/ollama/releases/download/v0.12.10/ollama-linux-arm64.tgz": "578e40565b8bd209c56a0ac82e18a47717cbaf5a4187eeb45e355e129f78f187",
+  "https://github.com/ollama/ollama/releases/download/v0.12.11/ollama-linux-amd64.tgz": "fb140ea4243706d0087b0108418ee5c6f74edcebf5f14e2f289b8e36bd303d0f",
+  "https://github.com/ollama/ollama/releases/download/v0.12.11/ollama-linux-arm64.tgz": "d73a923407eb1476ab74f4c8ea1c793afe0a0e3a5c61cddc6c4c8e312480159b",
+  "https://github.com/ollama/ollama/releases/download/v0.12.11/ollama-darwin.tgz": "f5ba3b7f3d262262ff971e7bc731bdf69c750796e0ac8b1b3a7eb97a4b0ae281",
+  "https://github.com/ollama/ollama/releases/download/v0.13.0/ollama-darwin.tgz": "fa4ca04c48453c5ff81447d0630e996ee3e6b6af76a9eba52c69c0732f748161",
+  "https://github.com/ollama/ollama/releases/download/v0.13.0/ollama-linux-arm64.tgz": "b1747f3f9aefead61a918b49372028faa68dd0b9f141b7f25b05afb327a3551d",
+  "https://github.com/ollama/ollama/releases/download/v0.13.0/ollama-linux-amd64.tgz": "c5e5b4840008d9c9bf955ec32c32b03afc57c986ac1c382d44c89c9f7dd2cc30",
+  "https://github.com/ollama/ollama/releases/download/v0.13.1/ollama-linux-amd64.tgz": "4997753db0c578d24f8fc95d1538741609d72529ab6e913ecbf910ae919b0232",
+  "https://github.com/ollama/ollama/releases/download/v0.13.1/ollama-darwin.tgz": "fd035fdf2a26c549674844d981cc15ab41c85bad8387a413de53e27c0721a956",
+  "https://github.com/ollama/ollama/releases/download/v0.13.1/ollama-linux-arm64.tgz": "3f2242c3b8e469d2a6fb5b50f14c2c6a9925392479fe213f12628f397d4b0c71",
+  "https://github.com/ollama/ollama/releases/download/v0.13.2/ollama-linux-arm64.tgz": "5422155b63da19adb5e3dd5679f6700ab5813a8ab2c268bbb0d1326e7709f810",
+  "https://github.com/ollama/ollama/releases/download/v0.13.2/ollama-linux-amd64.tgz": "ee655079ed20b90c7fb0de5c337ece4d4e85d58167338edf44a991f7bd81c3e0",
+  "https://github.com/ollama/ollama/releases/download/v0.13.2/ollama-darwin.tgz": "df8b2bc47be2504b953b70a8797e4ac4e3473da8b5c81cb90909f1d0c02766eb",
+  "https://github.com/ollama/ollama/releases/download/v0.13.3/ollama-linux-amd64.tgz": "70a3d0f4cccd003641c5531d564a3494ed9a422e397c437d40f802ec1003c6eb",
+  "https://github.com/ollama/ollama/releases/download/v0.13.3/ollama-darwin.tgz": "f2fd093b044b4951b5a0ec339f9059ba3de95abcf74df2a934c60330b6afc801",
+  "https://github.com/ollama/ollama/releases/download/v0.13.3/ollama-linux-arm64.tgz": "b9af11f08ef278f719070c000344417677350810b8fcf87617a242ae91701da7",
 }
