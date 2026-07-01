@@ -4,7 +4,8 @@ source = "https://github.com/civo/cli/releases/download/v${version}/civo-${versi
 test = "civo --version"
 
 version "1.1.92" "1.1.93" "1.1.95" "1.1.97" "1.1.98" "1.1.99" "1.2.0" "1.2.1" "1.2.2"
-        "1.2.3" "1.3.0" "1.4.0" "1.4.1" "1.4.2" "1.4.3" "1.4.4" "1.4.6" "1.4.7" {
+        "1.2.3" "1.3.0" "1.4.0" "1.4.1" "1.4.2" "1.4.3" "1.4.4" "1.4.6" "1.4.7" "1.5.0" "1.5.1"
+        "1.5.2" "1.5.3" "1.5.4" {
   auto-version {
     github-release = "civo/cli"
   }
@@ -83,4 +84,24 @@ sha256sums = {
   "https://github.com/civo/cli/releases/download/v1.4.7/civo-1.4.7-linux-amd64.tar.gz": "1243469e8d00542c4d74122e195a1ef12de503e8c885447093c51de05057e8f7",
   "https://github.com/civo/cli/releases/download/v1.4.7/civo-1.4.7-darwin-amd64.tar.gz": "2d45afb30f113fea7c565bf7821db47b8bbf2266c20ca5860a23e6fb89c07b1d",
   "https://github.com/civo/cli/releases/download/v1.4.7/civo-1.4.7-linux-arm64.tar.gz": "003cae6d41d9c9ed0688699cacd6ccce22313a7f862f3bc025a7cbdfdc26dc31",
+  "https://github.com/civo/cli/releases/download/v1.5.0/civo-1.5.0-darwin-arm64.tar.gz": "27db76a59b57225a54bbd69c412d2b90a53aae52672c0e6f5202ec65c71770ee",
+  "https://github.com/civo/cli/releases/download/v1.5.0/civo-1.5.0-linux-arm64.tar.gz": "a31b173bb321f89ff68c67a016c91b6e4fd335a528344715a83b3b696885a017",
+  "https://github.com/civo/cli/releases/download/v1.5.0/civo-1.5.0-darwin-amd64.tar.gz": "16fe23e9c3f80b1343ff10c630fb90da11845810037c6dd29acaea4b1b2bdd66",
+  "https://github.com/civo/cli/releases/download/v1.5.0/civo-1.5.0-linux-amd64.tar.gz": "d1f05bc6d9c814327d0809076b2943c0ef91985cf7e75ae658c4b37b87fd004c",
+  "https://github.com/civo/cli/releases/download/v1.5.1/civo-1.5.1-linux-amd64.tar.gz": "f9ef7b383f835cbb6211380206144bc8694d283fcc03d47e5273a718f8ccf62e",
+  "https://github.com/civo/cli/releases/download/v1.5.1/civo-1.5.1-linux-arm64.tar.gz": "20b00c209152465c5d8f140123d495cd54c407e7a54c733527def4ec23cc55e6",
+  "https://github.com/civo/cli/releases/download/v1.5.1/civo-1.5.1-darwin-amd64.tar.gz": "d2b0a3f2e808f1f2968388298dc62f5fbc244f29d6487577eb5fb61077e45d4b",
+  "https://github.com/civo/cli/releases/download/v1.5.1/civo-1.5.1-darwin-arm64.tar.gz": "a0550fb4d4cdf2af4a8bedd6bcd35acbcfbdccec988cda3c5a364d22d295a9e5",
+  "https://github.com/civo/cli/releases/download/v1.5.2/civo-1.5.2-linux-arm64.tar.gz": "988f38ff760343c744b6c61fffb8cc4d9b26dc8b1fa391fcad775bfef29665f7",
+  "https://github.com/civo/cli/releases/download/v1.5.2/civo-1.5.2-darwin-arm64.tar.gz": "22df70875020601398909b7fb94e997976a4848c9020cde86c0d36fd28c5e60e",
+  "https://github.com/civo/cli/releases/download/v1.5.2/civo-1.5.2-linux-amd64.tar.gz": "b0c49a47e68c64c3eef79fcd0749c10e4f0e4926df21421a7f3efed1f7b219e1",
+  "https://github.com/civo/cli/releases/download/v1.5.2/civo-1.5.2-darwin-amd64.tar.gz": "d753e15d1097d77de47d3687e73ee7099c5549cd55749c2678ae1afec7ae4515",
+  "https://github.com/civo/cli/releases/download/v1.5.3/civo-1.5.3-darwin-arm64.tar.gz": "c3edf73f471225ba5c17a51cc0de61d4dc925edfbac21de3aa22b532335606f9",
+  "https://github.com/civo/cli/releases/download/v1.5.3/civo-1.5.3-linux-amd64.tar.gz": "0eab883f15229123e8159b5065305310608b7bccc4581dea9f05aa7da06d185f",
+  "https://github.com/civo/cli/releases/download/v1.5.3/civo-1.5.3-linux-arm64.tar.gz": "f4360b4e0073b0b3432604b695aba2bbfbbe17cf53d8a3f73d26897276f4efcf",
+  "https://github.com/civo/cli/releases/download/v1.5.3/civo-1.5.3-darwin-amd64.tar.gz": "9439efee615b476a2869a4f0ce0356c2d9c508245cf1a332e007685d1a1bee73",
+  "https://github.com/civo/cli/releases/download/v1.5.4/civo-1.5.4-linux-amd64.tar.gz": "307f7e3f1939287a283c531a2212d57c460def93322bb0066987e3bdc9066c68",
+  "https://github.com/civo/cli/releases/download/v1.5.4/civo-1.5.4-darwin-amd64.tar.gz": "6b2694c9529f0ba7d2937bfc9cbd4599dba029c136e158ac9b5587efb711622d",
+  "https://github.com/civo/cli/releases/download/v1.5.4/civo-1.5.4-linux-arm64.tar.gz": "60f050ccc0bb642b663e2c4f7cc465818260e2df35d5a6d866bc6fa0c4d6a72d",
+  "https://github.com/civo/cli/releases/download/v1.5.4/civo-1.5.4-darwin-arm64.tar.gz": "b8a464755a223170e62b0d0f5a28a1e5bc37475d27a71d828e0888eaf3e1092e",
 }

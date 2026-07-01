@@ -19,7 +19,7 @@ platform "linux" "arm64" {
   source = "https://github.com/omissis/go-jsonschema/releases/download/v${version}/go-jsonschema_Linux_arm64.tar.gz"
 }
 
-version "0.20.0" {
+version "0.20.0" "0.21.0" "0.22.0" "0.23.0" "0.23.1" {
   auto-version {
     github-release = "omissis/go-jsonschema"
   }
@@ -30,4 +30,20 @@ sha256sums = {
   "https://github.com/omissis/go-jsonschema/releases/download/v0.20.0/go-jsonschema_Darwin_arm64.tar.gz": "ebd2e2b18ed77d14881a7951657be63b65f6c95a0b8fb9a4ee9bcb0f1ad15816",
   "https://github.com/omissis/go-jsonschema/releases/download/v0.20.0/go-jsonschema_Linux_arm64.tar.gz": "03422c0be70273b7073b6124a98c499625179f9c4cf91d732d66faf674e995dc",
   "https://github.com/omissis/go-jsonschema/releases/download/v0.20.0/go-jsonschema_Linux_x86_64.tar.gz": "0085ae7ac630e8a3adbc1370d6eeefb765979781c30f660568284cb01dbc4779",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.21.0/go-jsonschema_Linux_x86_64.tar.gz": "dd69719df934bd49bd2ad95f2e3e7bd4c0215d83c98e8841c619086e3d7d3d5d",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.21.0/go-jsonschema_Darwin_x86_64.tar.gz": "367f3b4da368925530002c5e3fe1665eb96d4b3020b7c65a093e80e211ee3370",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.21.0/go-jsonschema_Darwin_arm64.tar.gz": "d51da9eb7569e96e264dbd8b9513485c170e563f76465837315ea16251251e92",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.21.0/go-jsonschema_Linux_arm64.tar.gz": "e89b15418d4921bf2a1a7b88e57f8cb4f902c8d755ea8ec12937f7bca69743f8",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.22.0/go-jsonschema_Linux_arm64.tar.gz": "37f8390a9bc179d2e030747cddffa4dfc45c2961dcfcef7fa6edaea414bc9c08",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.22.0/go-jsonschema_Linux_x86_64.tar.gz": "7ec7c3ae269cce0ff42c6a72692a8170baa764201adcbc623aab8a2c91359e73",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.22.0/go-jsonschema_Darwin_x86_64.tar.gz": "aaca8c6655c23db99d524f2f0fce37b1cf3dab298d57f7b53dd4b98f2ca4c2b1",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.22.0/go-jsonschema_Darwin_arm64.tar.gz": "5f3aa88cab15df783c662d3ca3a63eed4695811e11b5c22e2a0d16a230081bd0",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.0/go-jsonschema_Linux_x86_64.tar.gz": "a9aa7597ef2740f73c2096748e608f2244a5f7e01fa10d52f233b49fb090e118",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.0/go-jsonschema_Darwin_arm64.tar.gz": "23dffbb180122a49a1807959c54ac84ca31c61c39034d7f2cfe0888de82554ac",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.0/go-jsonschema_Darwin_x86_64.tar.gz": "b6a239dd8382177a33405773a087050bafea77d35b611a0938dea5845f5c0c54",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.0/go-jsonschema_Linux_arm64.tar.gz": "ecdca6e430d7394810e6300330addb6f52717093a40ac9266a8cba8bf52b4722",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.1/go-jsonschema_Linux_x86_64.tar.gz": "652b26898c0cd27eaca234d7ac73c1d02c87e99112dd65be3f17083ded7368dc",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.1/go-jsonschema_Darwin_arm64.tar.gz": "edfab60d655dad0fe083a60a08164bf0197be606a5a1af3bedac963a4b69a5ac",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.1/go-jsonschema_Linux_arm64.tar.gz": "084d65f5f27a26d4fa07ab6d864ca1e742cd9aab0c78f92a6b5f3d503994c097",
+  "https://github.com/omissis/go-jsonschema/releases/download/v0.23.1/go-jsonschema_Darwin_x86_64.tar.gz": "5387176bdbfd41e0d2a499e6792cb46e69d249e60a9016d54bf89497c6c03335",
 }

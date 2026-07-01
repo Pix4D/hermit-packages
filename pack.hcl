@@ -23,7 +23,8 @@ platform "arm64" {
 
 version "0.27.0" "0.28.0" "0.29.0" "0.30.0" "0.31.0" "0.32.0" "0.32.1" "0.33.0"
         "0.33.1" "0.33.2" "0.34.1" "0.34.2" "0.35.0" "0.35.1" "0.36.0" "0.36.1" "0.36.2"
-        "0.36.3" "0.36.4" "0.37.0" "0.38.0" "0.38.1" "0.38.2" "0.39.0" "0.39.1" {
+        "0.36.3" "0.36.4" "0.37.0" "0.38.0" "0.38.1" "0.38.2" "0.39.0" "0.39.1" "0.40.0"
+        "0.40.1" "0.40.2" "0.40.3" "0.40.4" "0.40.5" "0.40.6" "0.40.7" {
   auto-version {
     github-release = "buildpacks/pack"
   }
@@ -130,4 +131,36 @@ sha256sums = {
   "https://github.com/buildpacks/pack/releases/download/v0.39.1/pack-v0.39.1-linux-arm64.tgz": "6ffe978d5fe59ecc17ed685f51da35b7d6a003aeaa3676e831e7aeeb0ddd09c8",
   "https://github.com/buildpacks/pack/releases/download/v0.39.1/pack-v0.39.1-macos-arm64.tgz": "56a4cf47deb0fe15f56673e36a8021bb5f5a4731adc09ef8261d998568053765",
   "https://github.com/buildpacks/pack/releases/download/v0.39.1/pack-v0.39.1-linux.tgz": "77109791ec8ad73749bc9efc5ecd3905f49175a5071c50e4be59840041ee4b42",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.0/pack-v0.40.0-macos.tgz": "625a9c45d4fd16c3470496230b8401aa3ae1bba3edf3198212be55bdf3019418",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.0/pack-v0.40.0-linux.tgz": "1f57cd0bd52e5c80cba52e30440b41fc183a13a9c1f2ed8b13cc35c12fa10126",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.0/pack-v0.40.0-macos-arm64.tgz": "d34121b9a97297000bc5f726bdb8e37806b41bd95d1071f78d286887012bebb8",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.0/pack-v0.40.0-linux-arm64.tgz": "2e9f46e422495d8ac7e5078b7f76cdca1c5f53d37783e18e69b7ff737ec440dc",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.1/pack-v0.40.1-linux.tgz": "950b228ee007399e3a43eae49c0e2bd932821a6f1a3045d32b44917ebb8d92fc",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.1/pack-v0.40.1-macos.tgz": "ae83059921238d60db89bffbd53d6cb9ba44d577013d123f3e08f7d926a78a55",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.1/pack-v0.40.1-macos-arm64.tgz": "4591c6a5da8e56c7895f704152d5c482f97875778d7448508e4a7c6b378c3c24",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.1/pack-v0.40.1-linux-arm64.tgz": "c96eb5c12c39da0b29fea38863b216f6c142f2f3192bad9ce2676d64db74c0d9",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.2/pack-v0.40.2-macos.tgz": "eebcc75be369f5ca13beb40dcc9d1852a6092c8250ecb5bad2b86f9a6436ad9c",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.2/pack-v0.40.2-macos-arm64.tgz": "d216f62aa446a309973c6ef40c644fc68d8197284ea056318ff2a2710479de10",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.2/pack-v0.40.2-linux-arm64.tgz": "4f4992b6843843bc9c0d15b275af939eebc8b2b601641f52951b71b923646f65",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.2/pack-v0.40.2-linux.tgz": "d4537041675b5882bb77437a25f76d27d698063d99855358aa48b4d33d1c3e58",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.3/pack-v0.40.3-macos.tgz": "bcda7adbf1991eec0bfa2e08970fd4a7c8888e3c4c3326cbc6b1b3a693043ea8",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.3/pack-v0.40.3-macos-arm64.tgz": "846c706d06071a330d642836470725fe8f94d179f58dd980754823f5ad045200",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.3/pack-v0.40.3-linux-arm64.tgz": "d84fbb295e2b11775616c22c2f3ada562141fe3c437298775e7b8892ff43c846",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.3/pack-v0.40.3-linux.tgz": "2f18dd0e63a181af411e648ed7467f4f081dc458ffacbd11644d5b911fc063ce",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.4/pack-v0.40.4-macos-arm64.tgz": "9e5d15badb8d7f928fd237e8e0423eea23a1dfb3bbbf40a3e05c9588e243848c",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.4/pack-v0.40.4-macos.tgz": "69efc4f95aae75677632cb2e5f1c90881e2ba69a559a71d3e69732bbc0d78b33",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.4/pack-v0.40.4-linux-arm64.tgz": "4395177f244b9da9b97958e731787b0df6c60d56fa6b3a10cb70a49319187130",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.4/pack-v0.40.4-linux.tgz": "6e7e4c8100f13e0c8b125fe3d4233f38a80be4d7626279f4d62b6b19642f98a6",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.5/pack-v0.40.5-linux.tgz": "ae049ed2484a16633ef884f058c306e0fa3ee3500dc69400ab9045ee29b1bc57",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.5/pack-v0.40.5-macos-arm64.tgz": "9ae06d5311b9b9c80af75cee29c356c2cd10bb124aa9fb52722932954584baa4",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.5/pack-v0.40.5-linux-arm64.tgz": "ddf16a7e4cf1ff6f5e03509a06d511d49da45d3abf0ba1ea135a9c23a8dbc032",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.5/pack-v0.40.5-macos.tgz": "a35c6b5383b3687318df76eab085f3e726775eb9b82fef180bc3baba5ad20c12",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.6/pack-v0.40.6-linux-arm64.tgz": "6ccff07f190a0ac5edec9cd3c1bc0a7192a9b5138147544adcdf2491efab0946",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.6/pack-v0.40.6-linux.tgz": "49fb874f7a930653834e67c16917369f9438080440194a6418421b1711421028",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.6/pack-v0.40.6-macos-arm64.tgz": "9096fed1908f29579a87c05f4515332adeb11a77101afab8e836597fdb0ab1aa",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.6/pack-v0.40.6-macos.tgz": "014c8d8fa6abeeee728594d9daff538de224c1fe5639b5057a67b7ab4844f0fe",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-linux.tgz": "0e458f37e177b6764f3ddcec542bd77bf18cd6f64f00525e0a4589bd7895d747",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-linux-arm64.tgz": "ddc68d1e65c5389022d88e32963a4b0a3c6301e45648007ac258ec2b6f5687a9",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-macos.tgz": "7499c7a2cadcb7cbf7be8f47591f63787a1ab877fdf65741c40cf3aa38ffd38c",
+  "https://github.com/buildpacks/pack/releases/download/v0.40.7/pack-v0.40.7-macos-arm64.tgz": "2fb35f91868e05ed6abc2c139a11b6e3f760dba5350a27095c35077fd0b7c4c5",
 }

@@ -14,7 +14,7 @@ platform "windows" {
   source = "https://github.com/cloudflare/cf-terraforming/releases/download/v${version}/cf-terraforming_${version}_${os}_${arch}.tar.gz"
 }
 
-version "0.24.0" {
+version "0.24.0" "0.25.0" "0.26.0" "0.27.0" {
   auto-version {
     github-release = "cloudflare/cf-terraforming"
   }
@@ -29,4 +29,16 @@ sha256sums = {
   "https://github.com/cloudflare/cf-terraforming/releases/download/v0.24.0/cf-terraforming_0.24.0_windows_386.tar.gz": "3d2eb3d926e2d4ec3394752dde6440da0c18a7508c983c1c82a988c1f0e102da",
   "https://github.com/cloudflare/cf-terraforming/releases/download/v0.24.0/cf-terraforming_0.24.0_windows_amd64.tar.gz": "0b0e7735d941777b82911a278af6584fa66ce54e5f9ed3b895c6a10419cdf306",
   "https://github.com/cloudflare/cf-terraforming/releases/download/v0.24.0/cf-terraforming_0.24.0_windows_arm64.tar.gz": "b2a56569a67d7b2cfbf5ae27104495c6cff99260e07e90755e20bb6fdc0a7b4e",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.25.0/cf-terraforming_0.25.0_linux_amd64.tar.gz": "ca39493d3862f5230a0b33b7586d074d4f93567b23404a6f5fa7d456a9ea1727",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.25.0/cf-terraforming_0.25.0_darwin_amd64.tar.gz": "51d114b2bae59dac09e0de11f71f4441fa7010d979c4b92ebcdbfe0588d59355",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.25.0/cf-terraforming_0.25.0_darwin_arm64.tar.gz": "8cae8e3be7f44db4a4615932502e1b57114dde90abe4e909db280efe5af5489c",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.25.0/cf-terraforming_0.25.0_linux_arm64.tar.gz": "78b8808a28b8cf6ec6833c77b3f7142b0fd25c90b8dc62507d35a14b30b513dc",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.26.0/cf-terraforming_0.26.0_darwin_arm64.tar.gz": "45ada01b21e5f183a0c6b536a2fd8f81cc0fcd8d0e4e368914d7f1a520cea533",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.26.0/cf-terraforming_0.26.0_linux_arm64.tar.gz": "5779c288934e6fe5800ae446188599b0175258f605cda3740ff1af31360f8b93",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.26.0/cf-terraforming_0.26.0_linux_amd64.tar.gz": "93e9e1d7442714948928f5812a005a2e45ce4330af69b617a9339842e3064317",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.26.0/cf-terraforming_0.26.0_darwin_amd64.tar.gz": "9eece2035024153a31c9e958e93da27e13984fe0c4550d6976a12c5c65b93b8f",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.27.0/cf-terraforming_0.27.0_linux_arm64.tar.gz": "228e87760c24a571bd390acd77f9f272338d69a62c1605bd0015994489f9547d",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.27.0/cf-terraforming_0.27.0_darwin_arm64.tar.gz": "f0a0d256cc4ac9dfca949eefb2b7e27e569c5759cf22868e656ef2a834de0c5c",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.27.0/cf-terraforming_0.27.0_linux_amd64.tar.gz": "b0673abb7cd7ceda64146756917c99c36f234bb8e900c852a9901d9bfa4b66b4",
+  "https://github.com/cloudflare/cf-terraforming/releases/download/v0.27.0/cf-terraforming_0.27.0_darwin_amd64.tar.gz": "b2d4c4360b7cfe59b8c9bcaea24dde7b1ad0aa29ba0830bbcda985cf36a18c23",
 }

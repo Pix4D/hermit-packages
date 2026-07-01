@@ -10,7 +10,8 @@ version "0.26.0" {
 version "1.0.0" "1.1.0" "1.2.0" "1.3.1" "1.4.0" "1.4.1" "1.5.0" "1.6.0" "1.6.1" "1.7.0"
         "1.7.1" "1.8.0" "1.8.1" "1.9.0" "1.8.2" "1.9.2" "1.10.0" "1.11.0" "1.11.1" "1.12.0"
         "1.11.2" "1.13.0" "1.14.0" "1.15.0" "1.16.0" "1.16.1" "1.17.0" "1.18.0" "1.19.0"
-        "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.19.6" "1.20.0" {
+        "1.19.1" "1.19.2" "1.19.3" "1.19.4" "1.19.5" "1.19.6" "1.20.0" "1.21.0" "1.22.0"
+        "1.22.1" {
   source = "https://github.com/knative/client/releases/download/knative-v${version}/kn-${os}-${arch}"
   sha256-source = "https://github.com/knative/client/releases/download/knative-v${version}/checksums.txt"
 
@@ -176,4 +177,16 @@ sha256sums = {
   "https://github.com/knative/client/releases/download/knative-v1.20.0/kn-darwin-amd64": "d7917f68d0524d9b1b054f8f2d172092bdb9f2e1d69e17c98ea05b0ec9b79a4d",
   "https://github.com/knative/client/releases/download/knative-v1.20.0/kn-darwin-arm64": "a5c582ff7d044d05c041941e5cf90848c2f255c240d5538c5bb1253215c1e3db",
   "https://github.com/knative/client/releases/download/knative-v1.20.0/kn-linux-arm64": "0d64944830ee5c8b4f4860a12a14265223e39636384ffcabc94449ead2f47802",
+  "https://github.com/knative/client/releases/download/knative-v1.21.0/kn-darwin-amd64": "d98720a4050f48380c32fa742cde4bf43bab4f411ec7f935735afbc8604ca18d",
+  "https://github.com/knative/client/releases/download/knative-v1.21.0/kn-linux-amd64": "eb09815d4926faed8d9450a1d50c9c839e535ccaf9c994f80e35584e93d9509a",
+  "https://github.com/knative/client/releases/download/knative-v1.21.0/kn-linux-arm64": "f24427f716e2b3aa478d02d1c56334e4467e53454a7955e7a025d01438df86fa",
+  "https://github.com/knative/client/releases/download/knative-v1.21.0/kn-darwin-arm64": "d51f8a9446366133fa57b8f4d2bb063b1b64f9ab7eb9a73ccf47114893129a52",
+  "https://github.com/knative/client/releases/download/knative-v1.22.0/kn-linux-amd64": "b01ed7b430a0346401bfbc939b72262a61d411c33aaf72f99858028ccc787bb9",
+  "https://github.com/knative/client/releases/download/knative-v1.22.0/kn-linux-arm64": "3b2b50218aad812b04602e4f4e6344da3e779d6a1a0b2d8e19b77a7a4a3f7eb1",
+  "https://github.com/knative/client/releases/download/knative-v1.22.0/kn-darwin-amd64": "87f0c7cb789b42931e87484defc29cad2feac5dd1ae3b587921059d4fbf1cb6e",
+  "https://github.com/knative/client/releases/download/knative-v1.22.0/kn-darwin-arm64": "15036c4bb1d4a6b7c925f0cb1a3e1bed9b296504b023987d91f7b997a849eebf",
+  "https://github.com/knative/client/releases/download/knative-v1.22.1/kn-linux-arm64": "52e09a3fff8f02496b14404cadb3919e34f205874276cde5bf09fcf9529008ce",
+  "https://github.com/knative/client/releases/download/knative-v1.22.1/kn-linux-amd64": "2b9ee63cdefbc33278bff0c8bdc8510912393059d4cd689704f2c8905f1974ad",
+  "https://github.com/knative/client/releases/download/knative-v1.22.1/kn-darwin-amd64": "7e2345d9f4234d55152c43ee0377f323ba9092ce027d1dbf8a05e57f45aec941",
+  "https://github.com/knative/client/releases/download/knative-v1.22.1/kn-darwin-arm64": "3ec5e080dc7e41cb25399e1e5ba713c78fb87354c3df1ce0aed3805a4a362633",
 }

@@ -8,7 +8,8 @@ repository = "https://github.com/gradle/gradle"
 version "6.7" "6.8.3" "7.0" "7.1" "7.2" "7.3.2" "7.4.2" "7.5" "7.6" "7.6.1" "7.6.2"
         "7.6.3" "8.0-rc-2" "8.0.1" "8.0.2" "8.1.1" "8.2" "8.2.1" "8.3" "8.4" "8.5" "8.6" "8.7"
         "8.8" "8.9" "8.10" "8.10.1" "8.10.2" "8.11" "8.11.1" "8.12" "8.12.1" "8.13" "8.14"
-        "8.14.1" "8.14.2" "8.14.3" "9.0.0" "9.1.0" "9.2.0" "9.2.1" {
+        "8.14.1" "8.14.2" "8.14.3" "8.14.4" "8.14.5" "9.0.0" "9.1.0" "9.2.0" "9.2.1" "9.3.0"
+        "9.3.1" "9.4.0" "9.4.1" "9.5.0" "9.5.1" "9.6.0" "9.6.1" {
   auto-version {
     html {
       url = "https://gradle.org/releases/"
@@ -56,8 +57,18 @@ sha256sums = {
   "https://services.gradle.org/distributions/gradle-8.14.1-bin.zip": "845952a9d6afa783db70bb3b0effaae45ae5542ca2bb7929619e8af49cb634cf",
   "https://services.gradle.org/distributions/gradle-8.14.2-bin.zip": "7197a12f450794931532469d4ff21a59ea2c1cd59a3ec3f89c035c3c420a6999",
   "https://services.gradle.org/distributions/gradle-8.14.3-bin.zip": "bd71102213493060956ec229d946beee57158dbd89d0e62b91bca0fa2c5f3531",
+  "https://services.gradle.org/distributions/gradle-8.14.4-bin.zip": "f1771298a70f6db5a29daf62378c4e18a17fc33c9ba6b14362e0cdf40610380d",
+  "https://services.gradle.org/distributions/gradle-8.14.5-bin.zip": "6f74b601422d6d6fc4e1f9a1ab6522f642c2fdcbc15ae33ebd30ba3d7198e854",
   "https://services.gradle.org/distributions/gradle-9.0.0-bin.zip": "8fad3d78296ca518113f3d29016617c7f9367dc005f932bd9d93bf45ba46072b",
   "https://services.gradle.org/distributions/gradle-9.1.0-bin.zip": "a17ddd85a26b6a7f5ddb71ff8b05fc5104c0202c6e64782429790c933686c806",
   "https://services.gradle.org/distributions/gradle-9.2.0-bin.zip": "df67a32e86e3276d011735facb1535f64d0d88df84fa87521e90becc2d735444",
   "https://services.gradle.org/distributions/gradle-9.2.1-bin.zip": "72f44c9f8ebcb1af43838f45ee5c4aa9c5444898b3468ab3f4af7b6076c5bc3f",
+  "https://services.gradle.org/distributions/gradle-9.3.0-bin.zip": "0d585f69da091fc5b2beced877feab55a3064d43b8a1d46aeb07996b0915e0e0",
+  "https://services.gradle.org/distributions/gradle-9.3.1-bin.zip": "b266d5ff6b90eada6dc3b20cb090e3731302e553a27c5d3e4df1f0d76beaff06",
+  "https://services.gradle.org/distributions/gradle-9.4.0-bin.zip": "60ea723356d81263e8002fec0fcf9e2b0eee0c0850c7a3d7ab0a63f2ccc601f3",
+  "https://services.gradle.org/distributions/gradle-9.4.1-bin.zip": "2ab2958f2a1e51120c326cad6f385153bb11ee93b3c216c5fccebfdfbb7ec6cb",
+  "https://services.gradle.org/distributions/gradle-9.5.0-bin.zip": "553c78f50dafcd54d65b9a444649057857469edf836431389695608536d6b746",
+  "https://services.gradle.org/distributions/gradle-9.5.1-bin.zip": "bafc141b619ad6350fd975fc903156dd5c151998cc8b058e8c1044ab5f7b031f",
+  "https://services.gradle.org/distributions/gradle-9.6.0-bin.zip": "bbaeb2fef8710818cf0e261201dab964c572f92b942812df0c3620d62a529a01",
+  "https://services.gradle.org/distributions/gradle-9.6.1-bin.zip": "9c0f7faeeb306cb14e4279a3e084ca6b596894089a0638e68a07c945a32c9e14",
 }

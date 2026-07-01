@@ -2,7 +2,7 @@ description = "kubectx is a utility to manage and switch between kubectl context
 binaries = ["kubectx"]
 test = "kubectx --help"
 
-version "0.9.4" "0.9.5" {
+version "0.9.4" "0.9.5" "0.10.0" "0.10.2" "0.11.0" {
   auto-version {
     github-release = "ahmetb/kubectx"
   }
@@ -30,4 +30,16 @@ sha256sums = {
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.4/kubectx_v0.9.4_linux_arm64.tar.gz": "5fab3c0624a83cf8fff5c34d90f854af6fa8b501ed63306aaf5355303ae884ed",
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.5/kubectx_v0.9.5_darwin_arm64.tar.gz": "1ea0dff5c6e7ebbe77b9e689c8b4ca17e8406b36fea88bfc221fefc25ae71a60",
   "https://github.com/ahmetb/kubectx/releases/download/v0.9.5/kubectx_v0.9.5_linux_arm64.tar.gz": "40a69c3156984cffb2766e729c8d756aa8d8c0926ef697ae8be12bd25161cd35",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.0/kubectx_v0.10.0_linux_x86_64.tar.gz": "ebfc356c646d9faee6750287d93db787a293c5d399c531993c4d2c1024ab0614",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.0/kubectx_v0.10.0_darwin_x86_64.tar.gz": "34991cb2cca67f0e76581c8758b684a6b7b5d1f0dd4da3493420d2d669da722d",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.0/kubectx_v0.10.0_darwin_arm64.tar.gz": "5932baae8e1f2ef049d66cb0c9f24af0403f4d2ac0179c88421a939e935e4231",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.0/kubectx_v0.10.0_linux_arm64.tar.gz": "11bb7fb2c519c3f51b9a308894c1024a34632f0981ea3052b62e31c4408a42ca",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.2/kubectx_v0.10.2_darwin_arm64.tar.gz": "124bb71537231078fb488499d3f91adef71199f383ad65328e98f3072e41d66c",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.2/kubectx_v0.10.2_linux_x86_64.tar.gz": "91ac5ef510763cfa78953bd377c90c68cb1f8c30eb2a5ec46196cc72e8c0aa09",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.2/kubectx_v0.10.2_darwin_x86_64.tar.gz": "cfac514b91e304755868773fd25b717260651ff9e4fb3ee580235bf8030b2396",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.10.2/kubectx_v0.10.2_linux_arm64.tar.gz": "2d2fc0a2f34908f8f34ed6db5d83ad8b221d493836671d07cac27003168d34ce",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_darwin_arm64.tar.gz": "b8c9b5150ca6d902474a115cf7e535831081b9ae10cbe561ea36c82bb3823d02",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_linux_x86_64.tar.gz": "08e031c54fbffb3f100e904e4eae94bba2730fedf4869921fda79e4d7a8f5d4c",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_linux_arm64.tar.gz": "1dac2072216689e773325cb7587b858ea7415706ebcf04e23bf80e7e70555340",
+  "https://github.com/ahmetb/kubectx/releases/download/v0.11.0/kubectx_v0.11.0_darwin_x86_64.tar.gz": "80097893b478c55be51ffe826c172f0fd5095d23cca02adbcbcabc412700a689",
 }

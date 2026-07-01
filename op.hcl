@@ -6,7 +6,8 @@ binaries = ["op"]
 test = "op --version"
 
 version "2.20.0" "2.21.0" "2.22.0" "2.23.0" "2.24.0" "2.25.0" "2.25.1" "2.26.0"
-        "2.26.1" "2.27.0" "2.28.0" "2.28.0" "2.29.0" "2.30.3" "2.31.0" "2.31.1" "2.32.0" {
+        "2.26.1" "2.27.0" "2.28.0" "2.28.0" "2.29.0" "2.30.3" "2.31.0" "2.31.1" "2.32.0"
+        "2.32.1" "2.33.0" "2.33.1" "2.34.0" "2.34.1" {
   auto-version {
     html {
       url = "https://app-updates.agilebits.com/product_history/CLI2"
@@ -80,4 +81,24 @@ sha256sums = {
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.0/op_darwin_arm64_v2.32.0.zip": "11f92951d25cf77aa1e7e714f45b05b07d816227afb3f2116595b40e4ff1d8f0",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.0/op_linux_amd64_v2.32.0.zip": "68e3141b11ad38ba5004fb40d71371b710c0bbf94733f0df9180768336f90097",
   "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.0/op_linux_arm64_v2.32.0.zip": "6f3d571aabe7701e21ad4b0f9d30207c3dcabdb2f9c261e3651106dde0ee8946",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.1/op_linux_amd64_v2.32.1.zip": "64a49db2d1b0333f3bee88546e3e84995e530e25f2c783fb5d4081d01a05b2a1",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.1/op_linux_arm64_v2.32.1.zip": "cf6d114b12079ba5ac4f3ea6c69d331c06565c361aeae77f8c20868bd94c9885",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.1/op_darwin_amd64_v2.32.1.zip": "6469797129d9e70129aac1828893a53ef535be3c7d4bd1e235498b8d78d6a4eb",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.32.1/op_darwin_arm64_v2.32.1.zip": "fcf1038da5d1030c87e3382553a875638f17e19204874bed0034382ce2dfd4b8",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_darwin_amd64_v2.33.0.zip": "de0910cce4f646434ecd97c8d07e60a92b4e19f187b01698332461bdfae549b2",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_linux_arm64_v2.33.0.zip": "1d3862246186953b6d0585d17a9b5bbf5c89f2b000d21b32a4a9442ef1493c99",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_darwin_arm64_v2.33.0.zip": "e7a4fdb33254b20f6721df46bf81f25ebf6e7f190183c6830619f90655eb35cb",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.0/op_linux_amd64_v2.33.0.zip": "299f113a8591dc088b659ff1bf47252d7261856518d37999ac2440724025dce8",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.1/op_linux_amd64_v2.33.1.zip": "0fc50cb22d791b5ee5e1421d97e96595fd61ca56ae92271bd1b28bb884971726",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.1/op_darwin_amd64_v2.33.1.zip": "4ac94e529b93525d85c58d5a608a514444036897338e65208df9c84113140f94",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.1/op_linux_arm64_v2.33.1.zip": "b4b32cf5860d8353b99429c1fc65d11f2b04a9a2a9f4d06b747b8c07929216f0",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.33.1/op_darwin_arm64_v2.33.1.zip": "8106127624bf55f0bf5ae6f8e2c56398e01db75d64c3088eface33885c854351",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.0/op_darwin_arm64_v2.34.0.zip": "a9c93d45ad62665c6350ed8958f281a94034a79c94e88077e530f6d129699a5d",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.0/op_linux_amd64_v2.34.0.zip": "198b05dcf9a0972778ce5a4e262c459979b0c837257b5da65e2fba6187734226",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.0/op_linux_arm64_v2.34.0.zip": "7b5c361a23e738a3969cf676960f4843af4aa9aa68dbec23d18a9134da428ba3",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.0/op_darwin_amd64_v2.34.0.zip": "d2e4cbdf8b5d2d421a411e5251c6956f3ffce90adde82b2a429435645c9bc91d",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.1/op_linux_amd64_v2.34.1.zip": "b13ed106335419ea0fb0ebd7ebbb3b48cf26a2f214eb4b2fd8d950548e7980ed",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.1/op_linux_arm64_v2.34.1.zip": "fd730a28ffa68376ac62b563d30e20e30ef59d3e2f142d9c6a959cfac5b50f60",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.1/op_darwin_amd64_v2.34.1.zip": "ca4e6b00eedc80a9a134297eb2390ca6039d2c9040ac57a80dbb8a1127823a27",
+  "https://cache.agilebits.com/dist/1P/op2/pkg/v2.34.1/op_darwin_arm64_v2.34.1.zip": "101b54dd194fbb6c63276b84f5eee1968be3558e2212519d9f5e26ab24a4ad05",
 }

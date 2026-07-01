@@ -13,7 +13,7 @@ on "unpack" {
 version "2.4.2" "2.7.3" "2.7.4" "2.7.5" "2.8.0" "2.8.2" "2.8.3" "2.8.4" "2.9.0" "2.9.1"
         "2.9.2" "2.9.3" "2.9.4" "2.9.5" "2.9.6" "3.0.0" "3.1.0" "3.1.1" "3.2.0" "3.2.1" "3.3.0"
         "3.3.2" "3.4.1" "3.4.2" "3.4.3" "3.5.0" "3.5.1" "3.5.2" "3.5.3" "3.5.4" "3.5.5" "3.5.6"
-        "3.5.7" "3.5.8" "3.6.0" "3.6.1" "3.6.2" "3.6.3" {
+        "3.5.7" "3.5.8" "3.6.0" "3.6.1" "3.6.2" "3.6.3" "3.6.4" "3.6.5" "3.6.6" "3.6.7" "3.6.8" {
   auto-version {
     github-release = "grafana/loki"
   }
@@ -172,4 +172,24 @@ sha256sums = {
   "https://github.com/grafana/loki/releases/download/v3.6.3/promtail-linux-arm64.zip": "57504626820243e1aae057d4e8c1d8e75fb3dcba8491464ad6d5c6e60093e31a",
   "https://github.com/grafana/loki/releases/download/v3.6.3/promtail-darwin-arm64.zip": "4fd38e088c55d9181fe3d2ac0dd5933e804a9847f91de0c7c8543d05f1b710d2",
   "https://github.com/grafana/loki/releases/download/v3.6.3/promtail-linux-amd64.zip": "c4358b2bd100de441c33a0085ee62d6c944645240e08bec5a712171a8c99db4a",
+  "https://github.com/grafana/loki/releases/download/v3.6.4/promtail-linux-arm64.zip": "e5635d2bb6c5cfae201aacb12708459f7b063ad738163e8aa9afce033666bab7",
+  "https://github.com/grafana/loki/releases/download/v3.6.4/promtail-darwin-arm64.zip": "ae1be72bf029f18ed789b008a5cd33acd31efefed06e6ad7259c64de2658ef4f",
+  "https://github.com/grafana/loki/releases/download/v3.6.4/promtail-darwin-amd64.zip": "3ede984e0b50665679c2d1965a5e653f0544d01affdbcbe0a845c496140999fe",
+  "https://github.com/grafana/loki/releases/download/v3.6.4/promtail-linux-amd64.zip": "5c7ec2829978e704d6fb9eae3945c8ca392eff43841015555793275047db011a",
+  "https://github.com/grafana/loki/releases/download/v3.6.5/promtail-darwin-arm64.zip": "901ed270aa796b3b1b722bd877fbb03e7c33abfcc9bdc5628c46c64e3f7e9443",
+  "https://github.com/grafana/loki/releases/download/v3.6.5/promtail-linux-arm64.zip": "73afdc3b4f2cf3b67f945bcc1b9956d60e49b91dd0563e34241a7a555289c245",
+  "https://github.com/grafana/loki/releases/download/v3.6.5/promtail-linux-amd64.zip": "f9a3bbf9915c91e0032b91a651ce9c934d5fe564a2b8650978db2719c1068585",
+  "https://github.com/grafana/loki/releases/download/v3.6.5/promtail-darwin-amd64.zip": "e38e7c52de74c49e1f6a2593757f583873813abb65e969a2203eef19c19a0463",
+  "https://github.com/grafana/loki/releases/download/v3.6.6/promtail-linux-arm64.zip": "9fcd5efad3e6c0c3de3102cf7ced719937f4aa20131e09d206879c259841d759",
+  "https://github.com/grafana/loki/releases/download/v3.6.6/promtail-darwin-arm64.zip": "bf473118fbbd3d88ed9e8bce417130c8e9b8f75a67b90c3836f4494a19220f00",
+  "https://github.com/grafana/loki/releases/download/v3.6.6/promtail-linux-amd64.zip": "6b333031974fc1bff48e1e0b6cfc758d436301b0b69bf850b1960ba4798373a5",
+  "https://github.com/grafana/loki/releases/download/v3.6.6/promtail-darwin-amd64.zip": "1a3ab493c25bdfc6d2a4435fdef7480f98f573a07032e6901c2cb19dcb9a2f50",
+  "https://github.com/grafana/loki/releases/download/v3.6.7/promtail-linux-amd64.zip": "330f97bf7ef7e97cc2e42649ce7299129ab09dbffe5a2f5c515188502220987c",
+  "https://github.com/grafana/loki/releases/download/v3.6.7/promtail-linux-arm64.zip": "25a154fe2dd6708c1215b978014630d9dd040c061ebb46bad6c69b6cf88a2e27",
+  "https://github.com/grafana/loki/releases/download/v3.6.7/promtail-darwin-arm64.zip": "3ecddf4258c00d191bbcc16feede388c797bc3134fa82c4556054d712bbad2aa",
+  "https://github.com/grafana/loki/releases/download/v3.6.7/promtail-darwin-amd64.zip": "7fd1b9fbdd7cd36b8b6517422b029c3b41f5902f83ea6b7e956187dab963e057",
+  "https://github.com/grafana/loki/releases/download/v3.6.8/promtail-linux-amd64.zip": "504e8b343fb8cf89514def384d104039fdcfb13eddcc01403c7bb81fcfa5b539",
+  "https://github.com/grafana/loki/releases/download/v3.6.8/promtail-darwin-amd64.zip": "9c418f9aea3ec5cb5bcad4ddbeccf8410610bc220e4fef2c610197edc2eba0c5",
+  "https://github.com/grafana/loki/releases/download/v3.6.8/promtail-linux-arm64.zip": "c7fdd71c2ddadbf15c8a32cdee064484d8ba7fb253023ffd2e76eb5f3ab4d13b",
+  "https://github.com/grafana/loki/releases/download/v3.6.8/promtail-darwin-arm64.zip": "210ada5b4ee6c72f417902a35bb1ff31c1c1a7a424686bfac4c18317ba5baa47",
 }

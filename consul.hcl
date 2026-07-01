@@ -15,7 +15,7 @@ version "1.11.1" "1.11.2" "1.11.3" "1.11.4" "1.11.5" "1.12.0" "1.12.1" "1.12.2"
         "1.16.2" "1.16.3" "1.17.0" "1.15.8" "1.17.1" "1.17.2" "1.17.3" "1.18.0" "1.18.1"
         "1.18.2" "1.19.0" "1.19.1" "1.19.2" "1.20.0" "1.20.1" "1.20.2" "1.20.3" "1.20.4"
         "1.20.5" "1.20.6" "1.21.0" "1.21.1" "1.21.2" "1.21.3" "1.21.4" "1.21.5" "1.22.0"
-        "1.22.1" {
+        "1.22.1" "1.22.2" "1.22.3" "1.22.4" "1.22.5" "1.22.6" "1.22.7" "2.0.0" "2.0.1" {
   auto-version {
     github-release = "hashicorp/consul"
   }
@@ -244,4 +244,36 @@ sha256sums = {
   "https://releases.hashicorp.com/consul/1.22.1/consul_1.22.1_linux_arm64.zip": "d421c4537b57935a949b9bc34252266672fe484a766a05ec5826bbae16c8f323",
   "https://releases.hashicorp.com/consul/1.22.1/consul_1.22.1_darwin_arm64.zip": "1bbbdc43ac23321f402d661b20dd0d291047ecbda2dbfe93e4b4ce26cf2c701d",
   "https://releases.hashicorp.com/consul/1.22.1/consul_1.22.1_linux_amd64.zip": "91222c7ec141f1c2c92f6b732eeb0251220337e4c07c768cbc6ae633fef69733",
+  "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_linux_amd64.zip": "e9ad339128e396238f053269bf8f76aeba1b5fada6f6cb60ab19fe70e133acde",
+  "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_darwin_arm64.zip": "c820f31ae10b6a0dea43806d2e2faa071f9ffe5a8adb6fec7d7fdd16b8b030af",
+  "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_linux_arm64.zip": "d33ae72ac71b8b6a3932d246d617e810bd107306814584f2fb56a70f2aa683e2",
+  "https://releases.hashicorp.com/consul/1.22.2/consul_1.22.2_darwin_amd64.zip": "87ad3967d78768516497b78d7297544b8cceca7cb4d1a8d676b9453e6bfcaf46",
+  "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_linux_arm64.zip": "ee6f8bee5290c98ad64be28e5a8865a1a299f62b4edd19e8428e3cde9ad58ffa",
+  "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_linux_amd64.zip": "0942ef6ed43522adfb4cddbefea2f0e64306318afb8aeab3727563f0caef04be",
+  "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_darwin_arm64.zip": "b2881e2f9c6704fdac53d54dfb3957bf0d280600541a8e8f61d807e96ea7efa0",
+  "https://releases.hashicorp.com/consul/1.22.3/consul_1.22.3_darwin_amd64.zip": "e4663e1ac1b6171d7f9439121009c930068c2499cfba12e3fcb2e28fdac07b41",
+  "https://releases.hashicorp.com/consul/1.22.4/consul_1.22.4_darwin_arm64.zip": "b14c637e1e83b822942c9ce7922efbad8fb5fe0cea55022abe31bf64e2f56383",
+  "https://releases.hashicorp.com/consul/1.22.4/consul_1.22.4_linux_arm64.zip": "34f32e1d751575264554010f970a178e503baccd391c206c9e91d08247c71610",
+  "https://releases.hashicorp.com/consul/1.22.4/consul_1.22.4_linux_amd64.zip": "34c6376d40752118e4a09564c18191da6226f8c38019f0cf4cc7d963d75c6d9c",
+  "https://releases.hashicorp.com/consul/1.22.4/consul_1.22.4_darwin_amd64.zip": "2443229fd5146361f8f95b8ab0901d0105d482128d848964c95fc441b2688d41",
+  "https://releases.hashicorp.com/consul/1.22.5/consul_1.22.5_linux_amd64.zip": "58603b87fd085282f882fcd02b5165c93b321692514b2ab822dec8dd4cd028a3",
+  "https://releases.hashicorp.com/consul/1.22.5/consul_1.22.5_linux_arm64.zip": "e13bafeb1f5c11b16ca8087387a5ef5b6f7799018f91d5a0705c64c06c5ad61d",
+  "https://releases.hashicorp.com/consul/1.22.5/consul_1.22.5_darwin_amd64.zip": "88028cf5c040a24193b2efd195efa6a6ca043c8340c7eb6b00343eecdf88ca40",
+  "https://releases.hashicorp.com/consul/1.22.5/consul_1.22.5_darwin_arm64.zip": "a728b166849ce51d107c22073c89217d27510dd9adad3326454273ac80ac2aef",
+  "https://releases.hashicorp.com/consul/1.22.6/consul_1.22.6_darwin_amd64.zip": "fc9c25898282f51e8e9b1a50f5f77bfbd0ae8556882fbf4338fa9f5f66b68a3c",
+  "https://releases.hashicorp.com/consul/1.22.6/consul_1.22.6_linux_arm64.zip": "a760371111ff3e1f0813672b240f833077f73c13ea37e75abc223ede534100b6",
+  "https://releases.hashicorp.com/consul/1.22.6/consul_1.22.6_darwin_arm64.zip": "6a9b1e76ef814ee0abb9a414fcc83f15c3c7d60ac93d1516fe4e0b41a3613ee9",
+  "https://releases.hashicorp.com/consul/1.22.6/consul_1.22.6_linux_amd64.zip": "5c2d67c6a364512b3dd0646eaf8bb58fa2fd6b9c890e2f374475deab2a6ec648",
+  "https://releases.hashicorp.com/consul/1.22.7/consul_1.22.7_linux_arm64.zip": "db54c5fb7c5ceaef97a38ca45dcc0f649ff592a48c73ab320e2d535c78e136cc",
+  "https://releases.hashicorp.com/consul/1.22.7/consul_1.22.7_darwin_amd64.zip": "4c768e809905e4ea1869a956e307d6311ebd592888f1dba2a2fbd72bcfe4f18e",
+  "https://releases.hashicorp.com/consul/1.22.7/consul_1.22.7_linux_amd64.zip": "fe25cecd8dd3552a8e5b0941cde1d79bb6004eac384aa45679dd1398f947201d",
+  "https://releases.hashicorp.com/consul/1.22.7/consul_1.22.7_darwin_arm64.zip": "6356b66f92f81d20e13129b09cdbacae7179952b7285e22f8ef8f8dffbf49758",
+  "https://releases.hashicorp.com/consul/2.0.0/consul_2.0.0_darwin_arm64.zip": "846f2adcb2a931a5114ef240fb95e35ebdcf907191fa421d01fc47b38f0a40b2",
+  "https://releases.hashicorp.com/consul/2.0.0/consul_2.0.0_linux_arm64.zip": "caea9d634b18ef137b0e62adac5dd14407cd942092c2c6281b70edd90b86d5e2",
+  "https://releases.hashicorp.com/consul/2.0.0/consul_2.0.0_darwin_amd64.zip": "d91f0f02e62b2697038ae399a78ba17a14a8657e7d8ac82d11dcf17b40b620ea",
+  "https://releases.hashicorp.com/consul/2.0.0/consul_2.0.0_linux_amd64.zip": "25fe76d3203529af59834cff4a29a128050b630d62901be7ad850b9991ddf991",
+  "https://releases.hashicorp.com/consul/2.0.1/consul_2.0.1_darwin_amd64.zip": "e5c1cf801dcd2f50cb0fec43feda03e74527fa4e28ee04890bfe3eb2ca0faaa1",
+  "https://releases.hashicorp.com/consul/2.0.1/consul_2.0.1_linux_amd64.zip": "f8189736b05e3fe42d27dd83dfbd3a6d7e44b5669b2e51684362e9c1639babe0",
+  "https://releases.hashicorp.com/consul/2.0.1/consul_2.0.1_linux_arm64.zip": "06a88f29c408f02a4c6388dccf30c059b8d8ce3778576701603fbb4dfc03b365",
+  "https://releases.hashicorp.com/consul/2.0.1/consul_2.0.1_darwin_arm64.zip": "ab6f2baa756b7ade58b335ec98312ff8235bc3d6d520de9c7ec95bd9c8a13485",
 }

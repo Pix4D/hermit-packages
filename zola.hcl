@@ -14,7 +14,7 @@ platform "linux" "amd64" {
 version "0.18.0" "0.19.0" "0.19.1" "0.19.2" {
 }
 
-version "0.20.0" "0.21.0" {
+version "0.20.0" "0.21.0" "0.22.0" "0.22.1" {
   auto-version {
     github-release = "getzola/zola"
   }
@@ -45,4 +45,12 @@ sha256sums = {
   "https://github.com/getzola/zola/releases/download/v0.21.0/zola-v0.21.0-aarch64-apple-darwin.tar.gz": "5fa8d33c82ee9990cb41020bff0ce40caf98fe4e46d38fdf2740a81a6c78efda",
   "https://github.com/getzola/zola/releases/download/v0.21.0/zola-v0.21.0-aarch64-unknown-linux-gnu.tar.gz": "da7e9def7b9acf0c9b78fb99ce72624504cfee1066ab7a161f09a4126dd7ffe6",
   "https://github.com/getzola/zola/releases/download/v0.21.0/zola-v0.21.0-x86_64-unknown-linux-gnu.tar.gz": "5c37a8f706567d6cad3f0dbc0eaebe3b9591cc301bd67089e5ddc0d0401732d6",
+  "https://github.com/getzola/zola/releases/download/v0.22.0/zola-v0.22.0-aarch64-apple-darwin.tar.gz": "96015a922a7d83827e381e273aef6be916711d43e89e65e8e82b4da0350fc425",
+  "https://github.com/getzola/zola/releases/download/v0.22.0/zola-v0.22.0-x86_64-unknown-linux-gnu.tar.gz": "f1d491f8956b94384c27d75cb6b2bf60d3916d1ade9564bcbfe7c03f0258aebf",
+  "https://github.com/getzola/zola/releases/download/v0.22.0/zola-v0.22.0-aarch64-unknown-linux-gnu.tar.gz": "14ef16bfb36ff3911a0fcddbbd20e74d1383ac87cce4c2b097c9055fc1c98e87",
+  "https://github.com/getzola/zola/releases/download/v0.22.0/zola-v0.22.0-x86_64-apple-darwin.tar.gz": "f0268e7559d8b6b79d50cef1cd6025a41819cbab920c3c5b0854e0de3a6584b9",
+  "https://github.com/getzola/zola/releases/download/v0.22.1/zola-v0.22.1-x86_64-unknown-linux-gnu.tar.gz": "0ca09aa40376aaa9ddfb512ff9ad963262ef95edb0d0f2d5ec6961b6f5cf22ef",
+  "https://github.com/getzola/zola/releases/download/v0.22.1/zola-v0.22.1-x86_64-apple-darwin.tar.gz": "3898709e154ae0593933264a540c869348bdb10d7f1b03a42dfb78d63703b3b5",
+  "https://github.com/getzola/zola/releases/download/v0.22.1/zola-v0.22.1-aarch64-unknown-linux-gnu.tar.gz": "8af437ec6352f33ccd24d7a1cfcb54a3db95d3ce376dc69525b4ef3fb6b8c1d1",
+  "https://github.com/getzola/zola/releases/download/v0.22.1/zola-v0.22.1-aarch64-apple-darwin.tar.gz": "46ac45a9e7628dba8593b124ee8794f4f9aa1c6b569918ecd4bbc5d0be190515",
 }

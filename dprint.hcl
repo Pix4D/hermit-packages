@@ -19,7 +19,8 @@ platform "darwin" "arm64" {
 
 version "0.45.0" "0.45.1" "0.46.0" "0.46.1" "0.46.2" "0.46.3" "0.47.0" "0.47.1"
         "0.47.2" "0.47.4" "0.47.5" "0.47.6" "0.48.0" "0.49.0" "0.49.1" "0.50.0" "0.50.1"
-        "0.50.2" {
+        "0.50.2" "0.51.0" "0.51.1" "0.52.0" "0.53.0" "0.53.1" "0.53.2" "0.54.0" "0.55.0"
+        "0.55.1" {
   auto-version {
     github-release = "dprint/dprint"
   }
@@ -98,4 +99,40 @@ sha256sums = {
   "https://github.com/dprint/dprint/releases/download/0.50.2/dprint-x86_64-apple-darwin.zip": "61becbf8d1b16540e364a4f00be704266ae322ee0ff3ba66a4a21033f66a8d55",
   "https://github.com/dprint/dprint/releases/download/0.50.2/dprint-aarch64-unknown-linux-gnu.zip": "039d4dca4360cb6622a2b56c3fc29ea71c356cd954e0b9566bff1a70e75beda8",
   "https://github.com/dprint/dprint/releases/download/0.50.2/dprint-aarch64-apple-darwin.zip": "f534bcc054947ab2a42c069b5f6027914d252729bd15c1109812313b35a662a5",
+  "https://github.com/dprint/dprint/releases/download/0.51.0/dprint-x86_64-apple-darwin.zip": "1fa152f36a4aa519fa9f233f49f2fb54cc063c77d40ba9f4fc54ea77a4068e0b",
+  "https://github.com/dprint/dprint/releases/download/0.51.0/dprint-aarch64-apple-darwin.zip": "f3fb85da6b10011835f3b5a14faf11d03594b4b3b32602ae2b45418794c5039b",
+  "https://github.com/dprint/dprint/releases/download/0.51.0/dprint-x86_64-unknown-linux-gnu.zip": "ee5ff0865c461ef6d3023a491f2ee5c1c63c833a15fb3c42fdb2ef835b1c7072",
+  "https://github.com/dprint/dprint/releases/download/0.51.0/dprint-aarch64-unknown-linux-gnu.zip": "5169106061f04805aa089cdd0a73fb913cfda3bc70038546abf4283992db19bd",
+  "https://github.com/dprint/dprint/releases/download/0.51.1/dprint-x86_64-unknown-linux-gnu.zip": "674c1f9fcdf8a564c26cc027e080d0c4758a40a566e04a776fc83c875ad51d45",
+  "https://github.com/dprint/dprint/releases/download/0.51.1/dprint-aarch64-apple-darwin.zip": "cc1321a524d8e1312d376ce2c51343f43f8f5489c2e265f11aea5a6af4de52ad",
+  "https://github.com/dprint/dprint/releases/download/0.51.1/dprint-x86_64-apple-darwin.zip": "d7afcb650f4a6e7d60dc46924dede9a44f276a4f044600de7babad67c0479876",
+  "https://github.com/dprint/dprint/releases/download/0.51.1/dprint-aarch64-unknown-linux-gnu.zip": "05a0df273453f099092967641462951fd26dcad282a564f91cc4ad16ea02d526",
+  "https://github.com/dprint/dprint/releases/download/0.52.0/dprint-x86_64-unknown-linux-gnu.zip": "3172f1564e4984ab0b511d5872b128ac91429a9e32a2db95977f3611a524d224",
+  "https://github.com/dprint/dprint/releases/download/0.52.0/dprint-x86_64-apple-darwin.zip": "aa42a8ce7f84393c601f16bfd57e2425ccfa3b68f06d62162aa73888fd38bc75",
+  "https://github.com/dprint/dprint/releases/download/0.52.0/dprint-aarch64-unknown-linux-gnu.zip": "8a4675df3db6498d1fef37c1da508fa28dbdd9e87cd3c8ac15f5f763d2fec863",
+  "https://github.com/dprint/dprint/releases/download/0.52.0/dprint-aarch64-apple-darwin.zip": "bb3a5be1444fcfaf2f405cbf8af7da809d055705a2ca17bd2e7edff6f2959354",
+  "https://github.com/dprint/dprint/releases/download/0.53.0/dprint-aarch64-apple-darwin.zip": "1906f3292dab7d333afbbb15b2e05a29f080f5cf91746ca6c73ee843da298d82",
+  "https://github.com/dprint/dprint/releases/download/0.53.0/dprint-aarch64-unknown-linux-gnu.zip": "a2ee78eb991e9fa7fc3cb203a5a086cb5590003b1aa6ad1bf6730df68b4124a5",
+  "https://github.com/dprint/dprint/releases/download/0.53.0/dprint-x86_64-unknown-linux-gnu.zip": "987185f5f0db6205e5bca88aaab04a7b29bc18bf7a8c1a84f56eef08c9730df0",
+  "https://github.com/dprint/dprint/releases/download/0.53.0/dprint-x86_64-apple-darwin.zip": "4248d4a7c8d747a5c6c874663c43406418ffe043a46e987e8cf4c97fa804a6ff",
+  "https://github.com/dprint/dprint/releases/download/0.53.1/dprint-x86_64-apple-darwin.zip": "b35e91afe0f7f2217128b8edcebd63d789b00f9c1b0300e4907a115106d857fd",
+  "https://github.com/dprint/dprint/releases/download/0.53.1/dprint-aarch64-apple-darwin.zip": "4c822f9d4c692b0f0cd53d14bc82057488e1c4db2df1122b1aceb0a660795ac8",
+  "https://github.com/dprint/dprint/releases/download/0.53.1/dprint-aarch64-unknown-linux-gnu.zip": "d65878d661c2d49c4f9ee21b4bc77d83050a0f5474f1d3bfca4fff0e37bb4c87",
+  "https://github.com/dprint/dprint/releases/download/0.53.1/dprint-x86_64-unknown-linux-gnu.zip": "b7139f54e463ace62a51494028d12f113e50ac5ff72c74b26b2230c27e186893",
+  "https://github.com/dprint/dprint/releases/download/0.53.2/dprint-aarch64-unknown-linux-gnu.zip": "490b620a386497b09ce25cc92c4cb784dfdb9d15448db972b164721d6f795ddd",
+  "https://github.com/dprint/dprint/releases/download/0.53.2/dprint-aarch64-apple-darwin.zip": "a185ba53f74e1e3a8ccdaf03a5d6f96b67d3fdf3f86d0d0f98950d15817eb0c4",
+  "https://github.com/dprint/dprint/releases/download/0.53.2/dprint-x86_64-unknown-linux-gnu.zip": "dcb73c6890c80dff15d5c91f7e01c09a5eb6e4c96373525765d08a60f02e4598",
+  "https://github.com/dprint/dprint/releases/download/0.53.2/dprint-x86_64-apple-darwin.zip": "902a9cff86a0ce643d5f1bb53e3e2434096511542363924e18016ee7bedb769f",
+  "https://github.com/dprint/dprint/releases/download/0.54.0/dprint-x86_64-unknown-linux-gnu.zip": "8cb5925a0d6d0d8aa74c82a00f76734577592dfa1eda9517c261a84fe06accd7",
+  "https://github.com/dprint/dprint/releases/download/0.54.0/dprint-x86_64-apple-darwin.zip": "fdbffa16cf0890ca30e958ffdabe7748e733867651a438ede1501f0e1a7b5e91",
+  "https://github.com/dprint/dprint/releases/download/0.54.0/dprint-aarch64-apple-darwin.zip": "1d6a8fb14d66cba0f049738edd4ab3b1afc1de6d936cd32e483e33284cfd1ade",
+  "https://github.com/dprint/dprint/releases/download/0.54.0/dprint-aarch64-unknown-linux-gnu.zip": "6b86329e17678ff3358f88d69a3774d371b601c665cc8cebbf2a4e1234a6d289",
+  "https://github.com/dprint/dprint/releases/download/0.55.0/dprint-x86_64-unknown-linux-gnu.zip": "d6c2f65f8a2f360435749f85e4e88579f632e105af5324b8c8b3216377ece000",
+  "https://github.com/dprint/dprint/releases/download/0.55.0/dprint-x86_64-apple-darwin.zip": "69d032d8fe70441fc4307cdd5360d5e0086773bb2f7ba63d4863e59c64f3df38",
+  "https://github.com/dprint/dprint/releases/download/0.55.0/dprint-aarch64-unknown-linux-gnu.zip": "e8ca4911be033b60f5531e0d51a5d1f126b8c68e193f85024627dac58e63294d",
+  "https://github.com/dprint/dprint/releases/download/0.55.0/dprint-aarch64-apple-darwin.zip": "cf6c0149ac9ed76aee2535d0dfeffd2c9d34bcfe42c397127bba4a8c934722cc",
+  "https://github.com/dprint/dprint/releases/download/0.55.1/dprint-x86_64-apple-darwin.zip": "21f9784b3edf3b0a686932b4387359ebd83fba798ac2f7e2ba1e7b8c9f674e3e",
+  "https://github.com/dprint/dprint/releases/download/0.55.1/dprint-aarch64-unknown-linux-gnu.zip": "f5ea3a5c196b0bcd91aa0af7b5ef7366dbf87e8315a6797c47bff081a8d4e398",
+  "https://github.com/dprint/dprint/releases/download/0.55.1/dprint-x86_64-unknown-linux-gnu.zip": "14f40c47b2a1c79ced321b62bf177f88f064d7b11c41f1ee28488ee0d9391bb2",
+  "https://github.com/dprint/dprint/releases/download/0.55.1/dprint-aarch64-apple-darwin.zip": "94a9ce5ca91dbb609d4f22f2ccf28d8b422627c0944c6ee63d1beecac28f8cd4",
 }

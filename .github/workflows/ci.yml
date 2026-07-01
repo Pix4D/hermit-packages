@@ -22,13 +22,9 @@ jobs:
           set -o pipefail
           curl -fsSL https://github.com/cashapp/hermit/releases/download/stable/install.sh | bash
       - name: Test packages
+        env:
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
         run: |
           set -xe -o pipefail
-          mkdir build testenv
           ~/bin/hermit validate "file://$PWD"
-          ~/bin/hermit init --sources="file://$PWD" ./testenv
-          . ./testenv/bin/activate-hermit
-          for pkg in $(git diff --name-only $(git merge-base origin/master HEAD) | fgrep .hcl | cut -d. -f1); do
-            hermit test -t "$pkg"
-            hermit clean -tp
-          done
+          .github/scripts/test-changed.sh

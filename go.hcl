@@ -123,7 +123,7 @@ version "1.23.0" "1.23.1" "1.23.2" "1.23.3" "1.23.4" "1.23.5" "1.23.6" "1.23.7"
 
 // All other versions
 version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
-        "1.24.8" "1.24.9" "1.24.10" "1.24.11" {
+        "1.24.8" "1.24.9" "1.24.10" "1.24.11" "1.24.12" "1.24.13" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -137,7 +137,8 @@ version "1.24.0" "1.24.1" "1.24.2" "1.24.3" "1.24.4" "1.24.5" "1.24.6" "1.24.7"
 }
 
 // All other versions
-version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" {
+version "1.25.0" "1.25.1" "1.25.2" "1.25.3" "1.25.4" "1.25.5" "1.25.6" "1.25.7"
+        "1.26.0" "1.26.1" "1.26.2" "1.26.3" "1.26.4" {
   auto-version {
     version-pattern = "go([^\\s]+)"
 
@@ -616,4 +617,40 @@ sha256sums = {
   "https://golang.org/dl/go1.25.5.darwin-arm64.tar.gz": "bed8ebe824e3d3b27e8471d1307f803fc6ab8e1d0eb7a4ae196979bd9b801dd3",
   "https://golang.org/dl/go1.25.5.darwin-amd64.tar.gz": "b69d51bce599e5381a94ce15263ae644ec84667a5ce23d58dc2e63e2c12a9f56",
   "https://golang.org/dl/go1.25.5.linux-arm64.tar.gz": "b00b694903d126c588c378e72d3545549935d3982635ba3f7a964c9fa23fe3b9",
+  "https://golang.org/dl/go1.24.12.darwin-arm64.tar.gz": "098d0c039357c3652ec6c97d5451bc4dc24f7cf30ed902373ed9a8134aab2d29",
+  "https://golang.org/dl/go1.24.12.linux-amd64.tar.gz": "bddf8e653c82429aea7aec2520774e79925d4bb929fe20e67ecc00dd5af44c50",
+  "https://golang.org/dl/go1.24.12.darwin-amd64.tar.gz": "4b9cc6771b56645da35a83a5424ae507f3250829b0d227e75f57b73e72da1f76",
+  "https://golang.org/dl/go1.24.12.linux-arm64.tar.gz": "4e02e2979e53b40f3666bba9f7e5ea0b99ea5156e0824b343fd054742c25498d",
+  "https://golang.org/dl/go1.25.6.linux-amd64.tar.gz": "f022b6aad78e362bcba9b0b94d09ad58c5a70c6ba3b7582905fababf5fe0181a",
+  "https://golang.org/dl/go1.25.6.darwin-amd64.tar.gz": "e2b5b237f5c262931b8e280ac4b8363f156e19bfad5270c099998932819670b7",
+  "https://golang.org/dl/go1.25.6.darwin-arm64.tar.gz": "984521ae978a5377c7d782fd2dd953291840d7d3d0bd95781a1f32f16d94a006",
+  "https://golang.org/dl/go1.25.6.linux-arm64.tar.gz": "738ef87d79c34272424ccdf83302b7b0300b8b096ed443896089306117943dd5",
+  "https://golang.org/dl/go1.24.13.linux-arm64.tar.gz": "74d97be1cc3a474129590c67ebf748a96e72d9f3a2b6fef3ed3275de591d49b3",
+  "https://golang.org/dl/go1.24.13.linux-amd64.tar.gz": "1fc94b57134d51669c72173ad5d49fd62afb0f1db9bf3f798fd98ee423f8d730",
+  "https://golang.org/dl/go1.24.13.darwin-amd64.tar.gz": "6cc6549b06725220b342b740497ffd24e0ebdcef75781a77931ca199f46ad781",
+  "https://golang.org/dl/go1.24.13.darwin-arm64.tar.gz": "f282d882c3353485e2fc6c634606d85caf36e855167d59b996dbeae19fa7629a",
+  "https://golang.org/dl/go1.25.7.linux-amd64.tar.gz": "12e6d6a191091ae27dc31f6efc630e3a3b8ba409baf3573d955b196fdf086005",
+  "https://golang.org/dl/go1.25.7.darwin-arm64.tar.gz": "ff18369ffad05c57d5bed888b660b31385f3c913670a83ef557cdfd98ea9ae1b",
+  "https://golang.org/dl/go1.25.7.darwin-amd64.tar.gz": "bf5050a2152f4053837b886e8d9640c829dbacbc3370f913351eb0904cb706f5",
+  "https://golang.org/dl/go1.25.7.linux-arm64.tar.gz": "ba611a53534135a81067240eff9508cd7e256c560edd5d8c2fef54f083c07129",
+  "https://golang.org/dl/go1.26.0.darwin-amd64.tar.gz": "1ca28b7703cbea05a65b2a1d92d6b308610ef92f8824578a0874f2e60c9d5a22",
+  "https://golang.org/dl/go1.26.0.linux-amd64.tar.gz": "aac1b08a0fb0c4e0a7c1555beb7b59180b05dfc5a3d62e40e9de90cd42f88235",
+  "https://golang.org/dl/go1.26.0.darwin-arm64.tar.gz": "b1640525dfe68f066d56f200bef7bf4dce955a1a893bd061de6754c211431023",
+  "https://golang.org/dl/go1.26.0.linux-arm64.tar.gz": "bd03b743eb6eb4193ea3c3fd3956546bf0e3ca5b7076c8226334afe6b75704cd",
+  "https://golang.org/dl/go1.26.1.linux-amd64.tar.gz": "031f088e5d955bab8657ede27ad4e3bc5b7c1ba281f05f245bcc304f327c987a",
+  "https://golang.org/dl/go1.26.1.darwin-amd64.tar.gz": "65773dab2f8cc4cd23d93ba6d0a805de150ca0b78378879292be0b903b8cdd08",
+  "https://golang.org/dl/go1.26.1.darwin-arm64.tar.gz": "353df43a7811ce284c8938b5f3c7df40b7bfb6f56cb165b150bc40b5e2dd541f",
+  "https://golang.org/dl/go1.26.1.linux-arm64.tar.gz": "a290581cfe4fe28ddd737dde3095f3dbeb7f2e4065cab4eae44dfc53b760c2f7",
+  "https://golang.org/dl/go1.26.2.linux-amd64.tar.gz": "990e6b4bbba816dc3ee129eaeaf4b42f17c2800b88a2166c265ac1a200262282",
+  "https://golang.org/dl/go1.26.2.darwin-amd64.tar.gz": "bc3f1500d9968c36d705442d90ba91addf9271665033748b82532682e90a7966",
+  "https://golang.org/dl/go1.26.2.darwin-arm64.tar.gz": "32af1522bf3e3ff3975864780a429cc0b41d190ec7bf90faa661d6d64566e7af",
+  "https://golang.org/dl/go1.26.2.linux-arm64.tar.gz": "c958a1fe1b361391db163a485e21f5f228142d6f8b584f6bef89b26f66dc5b23",
+  "https://golang.org/dl/go1.26.3.linux-arm64.tar.gz": "9d89a3ea57d141c2b22d70083f2c8459ba3890f2d9e818e7e933b75614936565",
+  "https://golang.org/dl/go1.26.3.darwin-amd64.tar.gz": "278d580b32e299fe4a9c990fcf2d02acfe538c7e551a6ee18f9c7164573d2c63",
+  "https://golang.org/dl/go1.26.3.linux-amd64.tar.gz": "2b2cfc7148493da5e73981bffbf3353af381d5f93e789c82c79aff64962eb556",
+  "https://golang.org/dl/go1.26.3.darwin-arm64.tar.gz": "875cf54a15311eee2c99b9dd67c68c4a49351d489ab622bf2cfd28c8f2078d3c",
+  "https://golang.org/dl/go1.26.4.darwin-arm64.tar.gz": "b62ad2b6d7d2464f12a5bcad7ff47f19d08325773b5efd21610e445a05a9bf53",
+  "https://golang.org/dl/go1.26.4.linux-amd64.tar.gz": "1153d3d50e0ac764b447adfe05c2bcf08e889d42a02e0fe0259bd47f6733ad7f",
+  "https://golang.org/dl/go1.26.4.linux-arm64.tar.gz": "ef758ae7c6cf9267c9c0ef080b8965f453d89ab2d25d9eb22de4405925238768",
+  "https://golang.org/dl/go1.26.4.darwin-amd64.tar.gz": "05dc9b5f9997744520aaebb3d5deaa7c755371aebbfb7f97c2511a9f3367538d",
 }

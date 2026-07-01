@@ -10,7 +10,9 @@ version "2.9.8" "2.9.9" "2.9.10" "2.9.11" "2.9.14" "2.9.15" "2.9.16" "2.9.17" "2
         "2.10.5" "2.10.6" "2.10.7" "2.10.8" "2.10.9" "2.10.10" "2.10.11" "2.10.12" "2.10.14"
         "2.10.16" "2.10.17" "2.10.18" "2.10.19" "2.10.20" "2.10.21" "2.10.22" "2.10.23"
         "2.10.24" "2.10.25" "2.10.26" "2.11.0" "2.11.1-binary" "2.11.1" "2.11.2" "2.11.3"
-        "2.11.4" "2.11.5" "2.11.6" "2.11.7" "2.11.8" "2.11.9" "2.12.0" "2.12.1" "2.12.2" {
+        "2.11.4" "2.11.5" "2.11.6" "2.11.7" "2.11.8" "2.11.9" "2.12.0" "2.12.1" "2.12.2"
+        "2.12.3" "2.12.4" "2.12.5" "2.12.6" "2.12.7" "2.12.8" "2.14.0" "2.14.1" "2.14.2"
+        "2.14.3" {
   auto-version {
     github-release = "nats-io/nats-server"
   }
@@ -225,4 +227,44 @@ sha256sums = {
   "https://github.com/nats-io/nats-server/releases/download/v2.12.2/nats-server-v2.12.2-linux-amd64.tar.gz": "db587fd8b36ac732a8434e748b026ef77ed9cb714a4e57bd010b1de93c2f3801",
   "https://github.com/nats-io/nats-server/releases/download/v2.12.2/nats-server-v2.12.2-linux-arm64.tar.gz": "84d33b50a39bab605b0d5e0223fc15979ef97419b2184a5a5b7eb6a6d7561fc6",
   "https://github.com/nats-io/nats-server/releases/download/v2.12.2/nats-server-v2.12.2-darwin-arm64.tar.gz": "d1e6d2cb36bf20e0ba8c2f50eeb4e6ea57f38353823fc77127dd676219591eea",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.3/nats-server-v2.12.3-linux-arm64.tar.gz": "75ce2c04356e9581441e88feb9c270f54fbe2aedaa53caaaa7126a5978ba753d",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.3/nats-server-v2.12.3-darwin-arm64.tar.gz": "9e7300c479155bb430309e5ab628ef22b9e217a57640719e96a05d50161af4df",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.3/nats-server-v2.12.3-linux-amd64.tar.gz": "3f113d8f3d64f28239e12deeca9c9941104def9e2a8461fa076b0065b4e76327",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.3/nats-server-v2.12.3-darwin-amd64.tar.gz": "abdfe44b16bd5bcbc106265d0b8fe0591f392fbed39d1ff18b4e46774c9b75a6",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.4/nats-server-v2.12.4-darwin-amd64.tar.gz": "193b51f738280b2b299ed81ac2df7d94cfdca4051d4721f17a71981d9312addf",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.4/nats-server-v2.12.4-linux-amd64.tar.gz": "92388f2e4aa1e6dea402eb173cbdb1fcb1df9a9c899cb807b91ddbb45c131b65",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.4/nats-server-v2.12.4-darwin-arm64.tar.gz": "03f5efdd94aaac9f8f3fbc4de786b112a5a00804526fe1300a86c735b182643c",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.4/nats-server-v2.12.4-linux-arm64.tar.gz": "44a6ff34eff7e8d0e1409dbac0b733cff7ecbb4f19388a4d0d3d6085d899f017",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.5/nats-server-v2.12.5-darwin-amd64.tar.gz": "85f1ba7e4f4c4765faea9bdacc557f354acf3ffc4ff84f175a58da02804522e0",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.5/nats-server-v2.12.5-darwin-arm64.tar.gz": "6cc6e14a6d80944ec6b130165882525e530de81e0196294446058a57b169962b",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.5/nats-server-v2.12.5-linux-amd64.tar.gz": "f1967bea3fbf6c86273f1a2edf5be65165d795716ae1ac2a14824f19cdc35c20",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.5/nats-server-v2.12.5-linux-arm64.tar.gz": "85caf0500b011a31b105fb04992cb350236e2d5935a4d2ea7cc1efe9203aafc2",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.6/nats-server-v2.12.6-linux-amd64.tar.gz": "77fe7dd69ff5144126026b78355900be0ab0bb4339dc61a7621dcc9b9e9d07a6",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.6/nats-server-v2.12.6-darwin-amd64.tar.gz": "d7bc326ebbaf0a032ae1b03b99e4d863d9320ad010f37a22b2e8306ab3272ca0",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.6/nats-server-v2.12.6-darwin-arm64.tar.gz": "b9b287b786e83e783702214d516042f6397f7c1c4916985c6ec5e6d9d490151c",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.6/nats-server-v2.12.6-linux-arm64.tar.gz": "fddaf3f223c7af3f4d0a0d2c2fc084406e6b3ec7adfd1b9e6a37fbd03bfe222f",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.7/nats-server-v2.12.7-darwin-amd64.tar.gz": "70206e297809b11a027ded44ffb505ef3b70c97349abfed1d1ead4b2c70efafb",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.7/nats-server-v2.12.7-darwin-arm64.tar.gz": "51ee38117b16f3c7335e6a6680a89723450d9f6cd6701da5182d31189ebc6eb1",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.7/nats-server-v2.12.7-linux-arm64.tar.gz": "3b9a79986778285c0e5acaba0b1218b72f6159db68fe5b8916a7d846240f9f22",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.7/nats-server-v2.12.7-linux-amd64.tar.gz": "570d2d627db111e679cc1e6bc57ba78f373ed1769acd8dc9c21c8f62d15b3c52",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.8/nats-server-v2.12.8-linux-arm64.tar.gz": "7d20e93c23924cdd5cb6ec51c92f9478c97f9c8a0dbe049dd7ab88af115d622c",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.8/nats-server-v2.12.8-darwin-amd64.tar.gz": "8880e133f45c6974468d351425db9a73ffe3b569850cad2bfbaa349d80939a7f",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.8/nats-server-v2.12.8-linux-amd64.tar.gz": "6abc397684567e133649688a13564ad6de786d64e88253fbb4f6a3aa8c2fca63",
+  "https://github.com/nats-io/nats-server/releases/download/v2.12.8/nats-server-v2.12.8-darwin-arm64.tar.gz": "4556a7f617eb532587790344629a6a95261099b236524b764d1f10d6c14aba1a",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-darwin-arm64.tar.gz": "36f28cf166e5ae5dd88d700a609c810b97ffad641e0c51b49cf8fae25fb3fac7",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-linux-arm64.tar.gz": "ce7dc5f7d97b70dabc38b13157fed28d7d06227860676143c15c62c5c297996c",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-linux-amd64.tar.gz": "3d8b74dfad39af184c765a6dd120441ed1c648d6672eddf6b304f222661251b8",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.0/nats-server-v2.14.0-darwin-amd64.tar.gz": "c307afaa5810dea24bfe5bb0cd895ddc7c47946f359823336ef3be1a41bdddfa",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.1/nats-server-v2.14.1-darwin-amd64.tar.gz": "cafbf6de8853a0d8c7cd48a9a8a72c4ed1522b57a1dd40c2d242f4ca11a66ae4",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.1/nats-server-v2.14.1-darwin-arm64.tar.gz": "39c80b501e76c71ac1257138387fb23a5c61459030e077835a8e257922e91007",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.1/nats-server-v2.14.1-linux-arm64.tar.gz": "0bdd20ad850e66a484dcb126f6ce610079520b56d9e8518d099e0864ab8171a1",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.1/nats-server-v2.14.1-linux-amd64.tar.gz": "4638c389af67d4c747f5b3e6a9d363bfe8f6b86de37d7c4ee3a36b283a5c2ce2",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.2/nats-server-v2.14.2-linux-arm64.tar.gz": "15fd0c3438e7178e5316e63be68373ad581c8d78db26e649113aa303b74e5e58",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.2/nats-server-v2.14.2-linux-amd64.tar.gz": "b3e7b14eb10c895fd90c2dacdb6b65bd3208adcc9524dd7689ba2c1024e6b97a",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.2/nats-server-v2.14.2-darwin-amd64.tar.gz": "b41cc36dabd6fa4961c0a1d5abe436f6f12d4451c6f7b88f337bbdfc041ea60f",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.2/nats-server-v2.14.2-darwin-arm64.tar.gz": "1027e634ef15c3be7befed6f6645c317cefea54a51d1ff3d312e220bac55ca21",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.3/nats-server-v2.14.3-linux-arm64.tar.gz": "1759b6a0ddebade9471b7c02891dfaa8c73b526c6f3ce391d4e21ec3eceffab8",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.3/nats-server-v2.14.3-darwin-amd64.tar.gz": "effa518fe623433d7c3321991db419bb1e00aa9b19ae761b559b580434afc3ab",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.3/nats-server-v2.14.3-darwin-arm64.tar.gz": "e086395457a7a93a440433a446c9f161f917d35c0374640555123e8d8d4b7fe9",
+  "https://github.com/nats-io/nats-server/releases/download/v2.14.3/nats-server-v2.14.3-linux-amd64.tar.gz": "f3d0c820c749f81d717310fb00d4903919e70e3e66b268bd352a088b9788eb93",
 }

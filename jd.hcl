@@ -15,7 +15,7 @@ on "unpack" {
 }
 
 version "1.9.1" "2.0.0" "2.0.1" "2.1.0" "2.1.2" "2.2.1" "2.2.2" "2.2.3" "2.2.5" "2.2.7"
-        "2.3.0" {
+        "2.3.0" "2.3.1" "2.4.0" "2.5.0" {
   auto-version {
     github-release = "josephburnett/jd"
   }
@@ -66,4 +66,16 @@ sha256sums = {
   "https://github.com/josephburnett/jd/releases/download/v2.3.0/jd-amd64-linux": "ae76e6255b13031563240cf75168ae0e5456a3a95cf80498a433547d7f8b192c",
   "https://github.com/josephburnett/jd/releases/download/v2.3.0/jd-arm64-linux": "2bfd7778721540ea3c0ce4029dfb8c888d81a1b2b552a165ab4d23ac440b06f7",
   "https://github.com/josephburnett/jd/releases/download/v2.3.0/jd-arm64-darwin": "1f13f4a32eb02d6e81233addb080c1398b7799729d0989854b311a0c5c95bb93",
+  "https://github.com/josephburnett/jd/releases/download/v2.3.1/jd-amd64-linux": "dc052e875333d8a6e0e3d575f2097e6ce78742635a68402c1618205f11464d81",
+  "https://github.com/josephburnett/jd/releases/download/v2.3.1/jd-amd64-darwin": "c2402e128dc7bf56a82333e52999666cc068d85ffc3636c236982c2ec036c089",
+  "https://github.com/josephburnett/jd/releases/download/v2.3.1/jd-arm64-darwin": "89335cc8b62c58303740dd203734fb249c85ebd0550a0ffdf5c1985f59d5ebef",
+  "https://github.com/josephburnett/jd/releases/download/v2.3.1/jd-arm64-linux": "2786ee1701a79eb34be2a3f6f903a408b3a469f24fb8ce0e36c97b1a0b0b168a",
+  "https://github.com/josephburnett/jd/releases/download/v2.4.0/jd-amd64-linux": "607909c57ff19625d6b9598f6ead2a00f97126c98bbe012a92d0a9f17db7503f",
+  "https://github.com/josephburnett/jd/releases/download/v2.4.0/jd-arm64-darwin": "9e1d95327a605d1901789888bcd72ef47e06872beb55cc50f3fb4254cbe9b2fe",
+  "https://github.com/josephburnett/jd/releases/download/v2.4.0/jd-arm64-linux": "c6785cc39d907dbcf5038042128f3b15da39c1c6fc5a2b556c990fdcee68e30d",
+  "https://github.com/josephburnett/jd/releases/download/v2.4.0/jd-amd64-darwin": "b7791aa49ca5eb939e208fd4cfa66c5e38018ed0a09febd4036130ac08d2880f",
+  "https://github.com/josephburnett/jd/releases/download/v2.5.0/jd-arm64-linux": "3c45a7b95a0fa7e0fd0dbeb65e02a40ba46078d9b27129b3455b8f7f650d3a80",
+  "https://github.com/josephburnett/jd/releases/download/v2.5.0/jd-arm64-darwin": "ff8d095f9b5cacfac2cf54c30b227b6535dabd1b6cc41dfe1a4bb4784136835c",
+  "https://github.com/josephburnett/jd/releases/download/v2.5.0/jd-amd64-darwin": "8d9842a654c90842fca6f14fff18c29c9b28ca04867afce0f18ee390fa467c7e",
+  "https://github.com/josephburnett/jd/releases/download/v2.5.0/jd-amd64-linux": "785dbbb8af613269539de952f7444f66f7cfbeb886c037495c4f0b2c3680db27",
 }
