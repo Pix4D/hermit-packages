@@ -17,7 +17,7 @@ platform "darwin" "amd64" {
 version "108" {
 }
 
-version "121" "122" "123" "124" "125" "126" "127" "128" "129" "130" {
+version "121" "122" "123" "124" "125" "126" "127" "128" "129" "130" "131" "132" {
   auto-version {
     github-release = "WebAssembly/binaryen"
     version-pattern = "version_(.*)"
@@ -68,4 +68,12 @@ sha256sums = {
   "https://github.com/WebAssembly/binaryen/releases/download/version_130/binaryen-version_130-x86_64-linux.tar.gz": "0a18362361ad05465118cd8eeb72edaeec89de6894bc283576ef4e07aa3babcc",
   "https://github.com/WebAssembly/binaryen/releases/download/version_130/binaryen-version_130-arm64-macos.tar.gz": "79d3ab9f417d9e215f15f598f523d001a7d9ac1e59367e5c869fbdabd1cba72e",
   "https://github.com/WebAssembly/binaryen/releases/download/version_130/binaryen-version_130-aarch64-linux.tar.gz": "e6ae6e09ac40f4e14bc5be6f687c58e2995c84170013975fa641809dd3b480a0",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_131/binaryen-version_131-x86_64-macos.tar.gz": "d209fadd8a894bdaf3bd3612a23c32a0af184d2f4a979b8c789e6e4f6a4de883",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_131/binaryen-version_131-x86_64-linux.tar.gz": "b5bf1f0eaf17c63ee588ff7a5954dc8f6ce2c26989051c66f24dfe9ece3e46db",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_131/binaryen-version_131-arm64-macos.tar.gz": "e441b48dc22163d209b4f05e44dc7210909b01237642b6c9ae48fd710a3ef83e",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_131/binaryen-version_131-aarch64-linux.tar.gz": "ba991f677edd9a21d2bc96c0144bc8ac5b112d4d98a3eb266e075e22e557df2a",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_132/binaryen-version_132-aarch64-linux.tar.gz": "c58562417836c5d0493d89bdefc434933bdc097db641b483df86bcfa557a107f",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_132/binaryen-version_132-x86_64-macos.tar.gz": "40c3de90bb3766bd0282a895e139a6f50253dba49b4f5bb89e66faca162d832e",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_132/binaryen-version_132-x86_64-linux.tar.gz": "195ddc94f9bc89f45abdabb0b9eea86023d727ba90eac8b35b80f2544fc30572",
+  "https://github.com/WebAssembly/binaryen/releases/download/version_132/binaryen-version_132-arm64-macos.tar.gz": "98aad827847af7ef990ed7098d885725c8e5b5aae75073403635617ae4e259aa",
 }
